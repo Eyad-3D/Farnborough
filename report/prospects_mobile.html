@@ -1,0 +1,358 @@
+<title>FIA2026 — Prospect Stands</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{
+  --ground:#F4F6F7; --surface:#FFFFFF; --ink:#14212B; --muted:#5E7079;
+  --line:#DCE3E6; --accent:#0E7C86; --accent-ink:#FFFFFF; --done:#9AA9B0;
+}
+@media (prefers-color-scheme: dark){:root{
+  --ground:#0F171E; --surface:#16222B; --ink:#E6EDF1; --muted:#8FA1AB;
+  --line:#243541; --accent:#43BCC4; --accent-ink:#0B1418; --done:#4E626D;
+}}
+:root[data-theme="dark"]{
+  --ground:#0F171E; --surface:#16222B; --ink:#E6EDF1; --muted:#8FA1AB;
+  --line:#243541; --accent:#43BCC4; --accent-ink:#0B1418; --done:#4E626D;
+}
+:root[data-theme="light"]{
+  --ground:#F4F6F7; --surface:#FFFFFF; --ink:#14212B; --muted:#5E7079;
+  --line:#DCE3E6; --accent:#0E7C86; --accent-ink:#FFFFFF; --done:#9AA9B0;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);
+  font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;}
+.wrap{max-width:40rem;margin:0 auto;padding:0 0.875rem 4rem}
+.top{position:sticky;top:0;z-index:5;background:var(--ground);padding:0.75rem 0 0.625rem;
+  border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:0.5rem}
+h1{font-size:1.0625rem;margin:0;letter-spacing:-0.01em}
+h1 small{display:block;font-size:0.75rem;font-weight:400;color:var(--muted);margin-top:0.125rem}
+#q{width:100%;padding:0.625rem 0.75rem;font-size:1rem;color:var(--ink);
+  background:var(--surface);border:1px solid var(--line);border-radius:0.5rem}
+#q:focus{outline:2px solid var(--accent);outline-offset:1px}
+.grp{margin-top:1.25rem}
+.ghead, summary{display:flex;align-items:baseline;gap:0.5rem;padding:0.25rem 0.125rem}
+summary{cursor:pointer;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";margin-left:auto;color:var(--muted);font-weight:600}
+details[open] summary::after{content:"–"}
+details[open] summary .count{color:var(--muted)}
+.eyebrow{font-size:0.6875rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--accent)}
+.tail .eyebrow{color:var(--muted)}
+.ghead h2, summary h2{font-size:0.9375rem;margin:0;font-weight:650}
+.count{margin-left:auto;font-size:0.75rem;color:var(--muted);
+  font-variant-numeric:tabular-nums}
+summary .count{margin-left:0}
+ul{list-style:none;margin:0.375rem 0 0;padding:0;display:flex;flex-direction:column;gap:0.375rem}
+.hit{display:flex;width:100%;align-items:center;gap:0.75rem;text-align:left;
+  padding:0.6875rem 0.75rem;background:var(--surface);color:var(--ink);
+  border:1px solid var(--line);border-radius:0.5rem;font:inherit;cursor:pointer;min-height:2.875rem}
+.hit:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.name{flex:1 1 auto;min-width:0;overflow-wrap:break-word}
+.stand{flex:0 0 auto;max-width:45%;text-align:right;color:var(--accent);font-weight:650;
+  font-family:ui-monospace,"SF Mono","Roboto Mono",Menlo,Consolas,monospace;
+  font-size:0.875rem;font-variant-numeric:tabular-nums;overflow-wrap:break-word;white-space:normal}
+#t5 .hit{border-left:3px solid var(--accent)}
+.row.done .hit{opacity:0.55}
+.row.done .name{text-decoration:line-through;text-decoration-color:var(--done);color:var(--muted)}
+.row.done .name::after{content:" ✓";text-decoration:none;color:var(--accent)}
+.row.hide{display:none}
+.foot{margin-top:2rem;font-size:0.75rem;color:var(--muted)}
+@media (prefers-reduced-motion: no-preference){.hit{transition:opacity 120ms ease}}
+</style>
+<div class="wrap">
+  <div class="top">
+    <h1>FIA2026 — prospect stands<small>264 companies · tap a row to mark visited · Farnborough, 20–24 July 2026</small></h1>
+    <input id="q" type="search" placeholder="Search company or stand…" aria-label="Search company or stand">
+  </div>
+  <section class="grp" id="t5"><header class="ghead"><span class="eyebrow">Tier 5 - walk first</span><h2>Hot prospects</h2><span class="count">20</span></header><ul><li class="row" data-k="vertical-aerospace" data-s="vertical aerospace 41000, c314-314a"><button type="button" class="hit" aria-pressed="false"><span class="name">Vertical Aerospace</span><span class="stand">41000, C314-314A</span></button></li>
+<li class="row" data-k="zeroavia" data-s="zeroavia 1113"><button type="button" class="hit" aria-pressed="false"><span class="name">ZeroAvia</span><span class="stand">1113</span></button></li>
+<li class="row" data-k="rolls-royce-plc" data-s="rolls-royce plc c405-407"><button type="button" class="hit" aria-pressed="false"><span class="name">Rolls-Royce Plc</span><span class="stand">C405-407</span></button></li>
+<li class="row" data-k="gkn-aerospace" data-s="gkn aerospace c231-233a"><button type="button" class="hit" aria-pressed="false"><span class="name">GKN Aerospace</span><span class="stand">C231-233A</span></button></li>
+<li class="row" data-k="evolito" data-s="evolito 1107"><button type="button" class="hit" aria-pressed="false"><span class="name">Evolito</span><span class="stand">1107</span></button></li>
+<li class="row" data-k="intelligent-energy-ltd" data-s="intelligent energy ltd 1120j"><button type="button" class="hit" aria-pressed="false"><span class="name">Intelligent Energy Ltd</span><span class="stand">1120J</span></button></li>
+<li class="row" data-k="mbda-uk-mbda-corporate" data-s="mbda (uk) / mbda corporate e032; 1230"><button type="button" class="hit" aria-pressed="false"><span class="name">MBDA (UK) / MBDA Corporate</span><span class="stand">E032; 1230</span></button></li>
+<li class="row" data-k="bae-systems" data-s="bae systems hall5"><button type="button" class="hit" aria-pressed="false"><span class="name">BAE Systems</span><span class="stand">HALL5</span></button></li>
+<li class="row" data-k="gcap-agency-and-edgewing" data-s="gcap agency and edgewing e016, e018"><button type="button" class="hit" aria-pressed="false"><span class="name">GCAP Agency and Edgewing</span><span class="stand">E016, E018</span></button></li>
+<li class="row" data-k="airbus" data-s="airbus 4105, e009, e010, e028"><button type="button" class="hit" aria-pressed="false"><span class="name">Airbus</span><span class="stand">4105, E009, E010, E028</span></button></li>
+<li class="row" data-k="leonardo-spa" data-s="leonardo spa b010, b012"><button type="button" class="hit" aria-pressed="false"><span class="name">Leonardo SpA</span><span class="stand">B010, B012</span></button></li>
+<li class="row" data-k="hewland-engineering" data-s="hewland engineering 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">Hewland Engineering</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="helix" data-s="helix 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">Helix</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="rtx-pratt-whitney-collins-raytheon" data-s="rtx (pratt &amp; whitney | collins | raytheon) c301-305"><button type="button" class="hit" aria-pressed="false"><span class="name">RTX (Pratt &amp; Whitney | Collins | Raytheon)</span><span class="stand">C301-305</span></button></li>
+<li class="row" data-k="itp-aero" data-s="itp aero 1311"><button type="button" class="hit" aria-pressed="false"><span class="name">ITP Aero</span><span class="stand">1311</span></button></li>
+<li class="row" data-k="drive-system-design" data-s="drive system design 0080"><button type="button" class="hit" aria-pressed="false"><span class="name">Drive System Design</span><span class="stand">0080</span></button></li>
+<li class="row" data-k="greenjets-ltd" data-s="greenjets ltd 4042"><button type="button" class="hit" aria-pressed="false"><span class="name">Greenjets Ltd</span><span class="stand">4042</span></button></li>
+<li class="row" data-k="pmw-dynamics" data-s="pmw dynamics 3000"><button type="button" class="hit" aria-pressed="false"><span class="name">PMW Dynamics</span><span class="stand">3000</span></button></li>
+<li class="row" data-k="nema-ltd" data-s="nema ltd 4215"><button type="button" class="hit" aria-pressed="false"><span class="name">Nema Ltd</span><span class="stand">4215</span></button></li>
+<li class="row" data-k="avvron-ltd" data-s="avvron ltd 1317"><button type="button" class="hit" aria-pressed="false"><span class="name">Avvron Ltd</span><span class="stand">1317</span></button></li></ul></section>
+<section class="grp" id="t4"><header class="ghead"><span class="eyebrow">Tier 4</span><h2>Strong</h2><span class="count">23</span></header><ul><li class="row" data-k="aalto" data-s="aalto 4729"><button type="button" class="hit" aria-pressed="false"><span class="name">AALTO</span><span class="stand">4729</span></button></li>
+<li class="row" data-k="ametek" data-s="ametek 3019, 3121, c112"><button type="button" class="hit" aria-pressed="false"><span class="name">AMETEK</span><span class="stand">3019, 3121, C112</span></button></li>
+<li class="row" data-k="argive" data-s="argive 4238e"><button type="button" class="hit" aria-pressed="false"><span class="name">Argive</span><span class="stand">4238E</span></button></li>
+<li class="row" data-k="b2space" data-s="b2space 4000"><button type="button" class="hit" aria-pressed="false"><span class="name">B2Space</span><span class="stand">4000</span></button></li>
+<li class="row" data-k="callen-lenz" data-s="callen-lenz 1331"><button type="button" class="hit" aria-pressed="false"><span class="name">Callen-Lenz</span><span class="stand">1331</span></button></li>
+<li class="row" data-k="cambridge-aerospace" data-s="cambridge aerospace 0620"><button type="button" class="hit" aria-pressed="false"><span class="name">Cambridge Aerospace</span><span class="stand">0620</span></button></li>
+<li class="row" data-k="cav-systems-ltd" data-s="cav systems ltd 1525"><button type="button" class="hit" aria-pressed="false"><span class="name">CAV Systems Ltd</span><span class="stand">1525</span></button></li>
+<li class="row" data-k="dowty-a-ge-aerospace-company" data-s="dowty, a ge aerospace company b026"><button type="button" class="hit" aria-pressed="false"><span class="name">Dowty, a GE Aerospace company</span><span class="stand">B026</span></button></li>
+<li class="row" data-k="eaton-ultra-pcs" data-s="eaton (+ ultra pcs) c226-227a; c128"><button type="button" class="hit" aria-pressed="false"><span class="name">Eaton (+ Ultra PCS)</span><span class="stand">C226-227A; C128</span></button></li>
+<li class="row" data-k="ge-aerospace" data-s="ge aerospace b026"><button type="button" class="hit" aria-pressed="false"><span class="name">GE Aerospace</span><span class="stand">B026</span></button></li>
+<li class="row" data-k="honeywell-aerospace-control-systems-ltd" data-s="honeywell (aerospace + control systems ltd) c134; 4921"><button type="button" class="hit" aria-pressed="false"><span class="name">Honeywell (Aerospace + Control Systems Ltd)</span><span class="stand">C134; 4921</span></button></li>
+<li class="row" data-k="h-roux-devtek" data-s="héroux-devtek 4321"><button type="button" class="hit" aria-pressed="false"><span class="name">Héroux-Devtek</span><span class="stand">4321</span></button></li>
+<li class="row" data-k="lockheed-martin-corporation" data-s="lockheed martin (+ corporation) 4110; c412, c501"><button type="button" class="hit" aria-pressed="false"><span class="name">Lockheed Martin (+ Corporation)</span><span class="stand">4110; C412, C501</span></button></li>
+<li class="row" data-k="martin-baker-aircraft-co" data-s="martin-baker aircraft co. 1260, c109"><button type="button" class="hit" aria-pressed="false"><span class="name">Martin-Baker Aircraft Co.</span><span class="stand">1260, C109</span></button></li>
+<li class="row" data-k="missiles-and-space-batteries-ltd" data-s="missiles and space batteries ltd 1016"><button type="button" class="hit" aria-pressed="false"><span class="name">Missiles and Space Batteries Ltd</span><span class="stand">1016</span></button></li>
+<li class="row" data-k="moog-inc" data-s="moog inc. c218-219"><button type="button" class="hit" aria-pressed="false"><span class="name">Moog Inc.</span><span class="stand">C218-219</span></button></li>
+<li class="row" data-k="olsen-actuators-drives" data-s="olsen actuators &amp; drives 4804"><button type="button" class="hit" aria-pressed="false"><span class="name">Olsen Actuators &amp; Drives</span><span class="stand">4804</span></button></li>
+<li class="row" data-k="parker-aerospace-incl-parker-meggitt" data-s="parker aerospace (incl. parker meggitt) c107-108"><button type="button" class="hit" aria-pressed="false"><span class="name">Parker Aerospace (incl. Parker Meggitt)</span><span class="stand">C107-108</span></button></li>
+<li class="row" data-k="qinetiq-ltd" data-s="qinetiq ltd c101-103"><button type="button" class="hit" aria-pressed="false"><span class="name">QinetiQ Ltd</span><span class="stand">C101-103</span></button></li>
+<li class="row" data-k="saab-ab" data-s="saab ab c403"><button type="button" class="hit" aria-pressed="false"><span class="name">Saab AB</span><span class="stand">C403</span></button></li>
+<li class="row" data-k="stirling-dynamics" data-s="stirling dynamics 1120, c413"><button type="button" class="hit" aria-pressed="false"><span class="name">Stirling Dynamics</span><span class="stand">1120, C413</span></button></li>
+<li class="row" data-k="windracers" data-s="windracers 4350"><button type="button" class="hit" aria-pressed="false"><span class="name">Windracers</span><span class="stand">4350</span></button></li>
+<li class="row" data-k="zero-emissions-aerospace-zeaero" data-s="zero emissions aerospace (zeaero) 0760"><button type="button" class="hit" aria-pressed="false"><span class="name">Zero Emissions Aerospace (ZeAero)</span><span class="stand">0760</span></button></li></ul></section>
+<section class="grp" id="t3"><header class="ghead"><span class="eyebrow">Tier 3</span><h2>If time allows</h2><span class="count">27</span></header><ul><li class="row" data-k="alfor-aviation" data-s="alfor aviation c129"><button type="button" class="hit" aria-pressed="false"><span class="name">Alfor Aviation</span><span class="stand">C129</span></button></li>
+<li class="row" data-k="amentum" data-s="amentum 3931"><button type="button" class="hit" aria-pressed="false"><span class="name">Amentum</span><span class="stand">3931</span></button></li>
+<li class="row" data-k="atkinsr-alis" data-s="atkinsréalis c131-132"><button type="button" class="hit" aria-pressed="false"><span class="name">AtkinsRéalis</span><span class="stand">C131-132</span></button></li>
+<li class="row" data-k="babcock-international-group" data-s="babcock international group c325, 4238l"><button type="button" class="hit" aria-pressed="false"><span class="name">Babcock International Group</span><span class="stand">C325, 4238L</span></button></li>
+<li class="row" data-k="castings-technology-cti" data-s="castings technology (cti) 0060"><button type="button" class="hit" aria-pressed="false"><span class="name">Castings Technology (Cti)</span><span class="stand">0060</span></button></li>
+<li class="row" data-k="cross-manufacturing" data-s="cross manufacturing 2008"><button type="button" class="hit" aria-pressed="false"><span class="name">Cross Manufacturing</span><span class="stand">2008</span></button></li>
+<li class="row" data-k="elbit-systems" data-s="elbit systems 1330"><button type="button" class="hit" aria-pressed="false"><span class="name">Elbit Systems</span><span class="stand">1330</span></button></li>
+<li class="row" data-k="general-dynamics-mission-systems" data-s="general dynamics mission systems 1207"><button type="button" class="hit" aria-pressed="false"><span class="name">General Dynamics Mission Systems</span><span class="stand">1207</span></button></li>
+<li class="row" data-k="hexcel" data-s="hexcel c211-212"><button type="button" class="hit" aria-pressed="false"><span class="name">Hexcel</span><span class="stand">C211-212</span></button></li>
+<li class="row" data-k="icomat" data-s="icomat 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">iCOMAT</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="l3harris-technologies" data-s="l3harris technologies 2531"><button type="button" class="hit" aria-pressed="false"><span class="name">L3Harris Technologies</span><span class="stand">2531</span></button></li>
+<li class="row" data-k="magnet-schultz-ltd" data-s="magnet schultz ltd 4721"><button type="button" class="hit" aria-pressed="false"><span class="name">Magnet Schultz Ltd</span><span class="stand">4721</span></button></li>
+<li class="row" data-k="marshall-aerospace" data-s="marshall aerospace 3321"><button type="button" class="hit" aria-pressed="false"><span class="name">Marshall Aerospace</span><span class="stand">3321</span></button></li>
+<li class="row" data-k="mda-space" data-s="mda space 4500"><button type="button" class="hit" aria-pressed="false"><span class="name">MDA Space</span><span class="stand">4500</span></button></li>
+<li class="row" data-k="northrop-grumman" data-s="northrop grumman c604"><button type="button" class="hit" aria-pressed="false"><span class="name">Northrop Grumman</span><span class="stand">C604</span></button></li>
+<li class="row" data-k="open-cosmos" data-s="open cosmos 4614"><button type="button" class="hit" aria-pressed="false"><span class="name">Open Cosmos</span><span class="stand">4614</span></button></li>
+<li class="row" data-k="pall-corporation" data-s="pall corporation 3327"><button type="button" class="hit" aria-pressed="false"><span class="name">Pall Corporation</span><span class="stand">3327</span></button></li>
+<li class="row" data-k="proxima-powder-metallurgy" data-s="proxima powder metallurgy 0085"><button type="button" class="hit" aria-pressed="false"><span class="name">Proxima Powder Metallurgy</span><span class="stand">0085</span></button></li>
+<li class="row" data-k="skf" data-s="skf 1360"><button type="button" class="hit" aria-pressed="false"><span class="name">SKF</span><span class="stand">1360</span></button></li>
+<li class="row" data-k="space-forge" data-s="space forge 4004"><button type="button" class="hit" aria-pressed="false"><span class="name">Space Forge</span><span class="stand">4004</span></button></li>
+<li class="row" data-k="surrey-satellite-technology-ltd" data-s="surrey satellite technology ltd 4705"><button type="button" class="hit" aria-pressed="false"><span class="name">Surrey Satellite Technology Ltd</span><span class="stand">4705</span></button></li>
+<li class="row" data-k="syensqo" data-s="syensqo c220"><button type="button" class="hit" aria-pressed="false"><span class="name">Syensqo</span><span class="stand">C220</span></button></li>
+<li class="row" data-k="tata-technologies-europe-ltd" data-s="tata technologies europe ltd 0140"><button type="button" class="hit" aria-pressed="false"><span class="name">Tata Technologies Europe Ltd</span><span class="stand">0140</span></button></li>
+<li class="row" data-k="tisics-ltd" data-s="tisics ltd 1317"><button type="button" class="hit" aria-pressed="false"><span class="name">TISICS Ltd</span><span class="stand">1317</span></button></li>
+<li class="row" data-k="transense-technologies-plc" data-s="transense technologies plc 4801"><button type="button" class="hit" aria-pressed="false"><span class="name">Transense Technologies plc</span><span class="stand">4801</span></button></li>
+<li class="row" data-k="twi-limited" data-s="twi limited 1046"><button type="button" class="hit" aria-pressed="false"><span class="name">TWI Limited</span><span class="stand">1046</span></button></li>
+<li class="row" data-k="uave-ltd" data-s="uave ltd 1221"><button type="button" class="hit" aria-pressed="false"><span class="name">UAVE Ltd</span><span class="stand">1221</span></button></li></ul></section>
+<details class="grp tail" id="low"><summary><span class="eyebrow">Lower priority</span><h2>Other engineering companies</h2><span class="count">143</span></summary><ul><li class="row" data-k="abrasive-technology-ltd" data-s="abrasive technology ltd 1221"><button type="button" class="hit" aria-pressed="false"><span class="name">Abrasive Technology Ltd</span><span class="stand">1221</span></button></li>
+<li class="row" data-k="accles-pollock" data-s="accles &amp; pollock 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">Accles &amp; Pollock</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="accrofab" data-s="accrofab 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">Accrofab</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="aernnova-aerospace" data-s="aernnova aerospace 1138"><button type="button" class="hit" aria-pressed="false"><span class="name">Aernnova Aerospace</span><span class="stand">1138</span></button></li>
+<li class="row" data-k="aerotron-composites-ltd" data-s="aerotron composites ltd 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">Aerotron Composites Ltd</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="alloy-wire-international" data-s="alloy wire international 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">Alloy Wire International</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="amphenol-ltd" data-s="amphenol ltd 1210"><button type="button" class="hit" aria-pressed="false"><span class="name">Amphenol Ltd</span><span class="stand">1210</span></button></li>
+<li class="row" data-k="angoka" data-s="angoka 1321"><button type="button" class="hit" aria-pressed="false"><span class="name">Angoka</span><span class="stand">1321</span></button></li>
+<li class="row" data-k="antrica" data-s="antrica 4644"><button type="button" class="hit" aria-pressed="false"><span class="name">Antrica</span><span class="stand">4644</span></button></li>
+<li class="row" data-k="arrk-europe" data-s="arrk europe 1310"><button type="button" class="hit" aria-pressed="false"><span class="name">ARRK Europe</span><span class="stand">1310</span></button></li>
+<li class="row" data-k="asg-aerospace" data-s="asg aerospace 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">ASG Aerospace</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="automatic-industrial-machines-ltd" data-s="automatic industrial machines ltd 1120, c413"><button type="button" class="hit" aria-pressed="false"><span class="name">Automatic Industrial Machines Ltd</span><span class="stand">1120, C413</span></button></li>
+<li class="row" data-k="b-tech-engineering-ltd" data-s="b-tech engineering ltd 3930"><button type="button" class="hit" aria-pressed="false"><span class="name">B-Tech Engineering Ltd</span><span class="stand">3930</span></button></li>
+<li class="row" data-k="barnbrook-systems-ltd" data-s="barnbrook systems ltd 1317"><button type="button" class="hit" aria-pressed="false"><span class="name">Barnbrook Systems Ltd</span><span class="stand">1317</span></button></li>
+<li class="row" data-k="bel-engineering" data-s="bel engineering 3835"><button type="button" class="hit" aria-pressed="false"><span class="name">BEL Engineering</span><span class="stand">3835</span></button></li>
+<li class="row" data-k="bodycote-heat-treatments-ltd" data-s="bodycote heat treatments ltd 41111"><button type="button" class="hit" aria-pressed="false"><span class="name">Bodycote Heat Treatments Ltd</span><span class="stand">41111</span></button></li>
+<li class="row" data-k="bott-ltd" data-s="bott ltd 1310"><button type="button" class="hit" aria-pressed="false"><span class="name">BOTT Ltd</span><span class="stand">1310</span></button></li>
+<li class="row" data-k="bowmill-engineering-metal-treatments" data-s="bowmill engineering &amp; metal treatments 4026"><button type="button" class="hit" aria-pressed="false"><span class="name">Bowmill Engineering &amp; Metal Treatments</span><span class="stand">4026</span></button></li>
+<li class="row" data-k="bright-engineering-precision-products" data-s="bright engineering (precision products) 1317"><button type="button" class="hit" aria-pressed="false"><span class="name">Bright Engineering (Precision Products)</span><span class="stand">1317</span></button></li>
+<li class="row" data-k="british-airways-pioneers-of-tomorrow" data-s="british airways (pioneers of tomorrow) pp-18"><button type="button" class="hit" aria-pressed="false"><span class="name">British Airways (Pioneers of Tomorrow)</span><span class="stand">PP-18</span></button></li>
+<li class="row" data-k="broadway-group" data-s="broadway group 1120, c413"><button type="button" class="hit" aria-pressed="false"><span class="name">Broadway Group</span><span class="stand">1120, C413</span></button></li>
+<li class="row" data-k="brookhouse-aerospace" data-s="brookhouse aerospace 1310"><button type="button" class="hit" aria-pressed="false"><span class="name">Brookhouse Aerospace</span><span class="stand">1310</span></button></li>
+<li class="row" data-k="bruntons-aero-products" data-s="bruntons aero products 1020"><button type="button" class="hit" aria-pressed="false"><span class="name">Bruntons Aero Products</span><span class="stand">1020</span></button></li>
+<li class="row" data-k="capabilities-beyond-engineering" data-s="capabilities beyond engineering 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">Capabilities Beyond Engineering</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="carbon8lighting" data-s="carbon8lighting 4648"><button type="button" class="hit" aria-pressed="false"><span class="name">Carbon8Lighting</span><span class="stand">4648</span></button></li>
+<li class="row" data-k="ccp-gransden" data-s="ccp gransden 1321"><button type="button" class="hit" aria-pressed="false"><span class="name">CCP Gransden</span><span class="stand">1321</span></button></li>
+<li class="row" data-k="cdi-hallite-aerospace" data-s="cdi-hallite aerospace 4034"><button type="button" class="hit" aria-pressed="false"><span class="name">CDI-Hallite Aerospace</span><span class="stand">4034</span></button></li>
+<li class="row" data-k="cp-cases-ltd" data-s="cp cases ltd 4020"><button type="button" class="hit" aria-pressed="false"><span class="name">CP Cases Ltd</span><span class="stand">4020</span></button></li>
+<li class="row" data-k="cranden-diamond-products" data-s="cranden diamond products 1554"><button type="button" class="hit" aria-pressed="false"><span class="name">Cranden Diamond Products</span><span class="stand">1554</span></button></li>
+<li class="row" data-k="cygnet-texkimp" data-s="cygnet texkimp 1310"><button type="button" class="hit" aria-pressed="false"><span class="name">Cygnet Texkimp</span><span class="stand">1310</span></button></li>
+<li class="row" data-k="d-risq-ltd" data-s="d-risq ltd 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">D-RisQ Ltd</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="denroy-ltd" data-s="denroy ltd 1321"><button type="button" class="hit" aria-pressed="false"><span class="name">Denroy Ltd</span><span class="stand">1321</span></button></li>
+<li class="row" data-k="depe-gear-company-ltd" data-s="depe gear company ltd 1310"><button type="button" class="hit" aria-pressed="false"><span class="name">DEPE Gear Company Ltd</span><span class="stand">1310</span></button></li>
+<li class="row" data-k="doncasters" data-s="doncasters 3550"><button type="button" class="hit" aria-pressed="false"><span class="name">Doncasters</span><span class="stand">3550</span></button></li>
+<li class="row" data-k="dp-engineering" data-s="dp engineering 1120, c413"><button type="button" class="hit" aria-pressed="false"><span class="name">DP Engineering</span><span class="stand">1120, C413</span></button></li>
+<li class="row" data-k="druck" data-s="druck 4230"><button type="button" class="hit" aria-pressed="false"><span class="name">Druck</span><span class="stand">4230</span></button></li>
+<li class="row" data-k="duvelco-limited" data-s="duvelco limited 3832"><button type="button" class="hit" aria-pressed="false"><span class="name">Duvelco Limited</span><span class="stand">3832</span></button></li>
+<li class="row" data-k="dynamic-aerospace-fabrications" data-s="dynamic aerospace fabrications 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">Dynamic Aerospace Fabrications</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="element-materials-technology" data-s="element materials technology 1116"><button type="button" class="hit" aria-pressed="false"><span class="name">Element Materials Technology</span><span class="stand">1116</span></button></li>
+<li class="row" data-k="elite-electronic-systems" data-s="elite electronic systems 1321"><button type="button" class="hit" aria-pressed="false"><span class="name">Elite Electronic Systems</span><span class="stand">1321</span></button></li>
+<li class="row" data-k="elite-emc-ltd" data-s="elite emc ltd 4238f"><button type="button" class="hit" aria-pressed="false"><span class="name">Elite EMC Ltd</span><span class="stand">4238F</span></button></li>
+<li class="row" data-k="eutelsat-group" data-s="eutelsat group 4503"><button type="button" class="hit" aria-pressed="false"><span class="name">Eutelsat Group</span><span class="stand">4503</span></button></li>
+<li class="row" data-k="expromet-technologies-group" data-s="expromet technologies group 1548"><button type="button" class="hit" aria-pressed="false"><span class="name">Expromet Technologies Group</span><span class="stand">1548</span></button></li>
+<li class="row" data-k="flightcase-warehouse" data-s="flightcase warehouse 1522"><button type="button" class="hit" aria-pressed="false"><span class="name">Flightcase Warehouse</span><span class="stand">1522</span></button></li>
+<li class="row" data-k="flitetec-limited" data-s="flitetec limited 1120a"><button type="button" class="hit" aria-pressed="false"><span class="name">Flitetec Limited</span><span class="stand">1120A</span></button></li>
+<li class="row" data-k="fmt-aerospace-ltd" data-s="fmt aerospace ltd 1133"><button type="button" class="hit" aria-pressed="false"><span class="name">FMT Aerospace LTD</span><span class="stand">1133</span></button></li>
+<li class="row" data-k="ford-aerospace" data-s="ford aerospace 2511"><button type="button" class="hit" aria-pressed="false"><span class="name">Ford Aerospace</span><span class="stand">2511</span></button></li>
+<li class="row" data-k="forged-solutions-group" data-s="forged solutions group 4535"><button type="button" class="hit" aria-pressed="false"><span class="name">Forged Solutions Group</span><span class="stand">4535</span></button></li>
+<li class="row" data-k="framatome-ltd-defence-and-space" data-s="framatome ltd - defence and space 1204"><button type="button" class="hit" aria-pressed="false"><span class="name">Framatome Ltd - Defence and Space</span><span class="stand">1204</span></button></li>
+<li class="row" data-k="friction-technology-ltd" data-s="friction technology ltd 4544"><button type="button" class="hit" aria-pressed="false"><span class="name">Friction Technology Ltd</span><span class="stand">4544</span></button></li>
+<li class="row" data-k="g-o-springs" data-s="g&amp;o springs 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">G&amp;O Springs</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="gkm-aerospace-ltd" data-s="gkm aerospace ltd 1120e"><button type="button" class="hit" aria-pressed="false"><span class="name">GKM Aerospace Ltd</span><span class="stand">1120E</span></button></li>
+<li class="row" data-k="glenair" data-s="glenair 3845"><button type="button" class="hit" aria-pressed="false"><span class="name">Glenair</span><span class="stand">3845</span></button></li>
+<li class="row" data-k="globus-metal-powders" data-s="globus metal powders 1025"><button type="button" class="hit" aria-pressed="false"><span class="name">Globus Metal Powders</span><span class="stand">1025</span></button></li>
+<li class="row" data-k="goodridge-ltd" data-s="goodridge ltd 1317"><button type="button" class="hit" aria-pressed="false"><span class="name">Goodridge Ltd</span><span class="stand">1317</span></button></li>
+<li class="row" data-k="goonhilly-comsat" data-s="goonhilly / comsat 4514"><button type="button" class="hit" aria-pressed="false"><span class="name">Goonhilly / COMSAT</span><span class="stand">4514</span></button></li>
+<li class="row" data-k="groveley-precision-engineering" data-s="groveley precision engineering 1317"><button type="button" class="hit" aria-pressed="false"><span class="name">Groveley Precision Engineering</span><span class="stand">1317</span></button></li>
+<li class="row" data-k="heller-machine-tools" data-s="heller machine tools 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">Heller Machine Tools</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="hellermanntyton" data-s="hellermanntyton 0360"><button type="button" class="hit" aria-pressed="false"><span class="name">HellermannTyton</span><span class="stand">0360</span></button></li>
+<li class="row" data-k="howmet-aerospace-fastening-systems" data-s="howmet aerospace (+ fastening systems) c224-225; c313"><button type="button" class="hit" aria-pressed="false"><span class="name">Howmet Aerospace (+ Fastening Systems)</span><span class="stand">C224-225; C313</span></button></li>
+<li class="row" data-k="hqw-aerospace" data-s="hqw aerospace 1532"><button type="button" class="hit" aria-pressed="false"><span class="name">HQW Aerospace</span><span class="stand">1532</span></button></li>
+<li class="row" data-k="hr-smith-group" data-s="hr smith group 1060"><button type="button" class="hit" aria-pressed="false"><span class="name">HR Smith Group</span><span class="stand">1060</span></button></li>
+<li class="row" data-k="hurst-green-plastics-ltd" data-s="hurst green plastics ltd 1326"><button type="button" class="hit" aria-pressed="false"><span class="name">Hurst Green Plastics Ltd</span><span class="stand">1326</span></button></li>
+<li class="row" data-k="hycaero-ltd" data-s="hycaero ltd 1310"><button type="button" class="hit" aria-pressed="false"><span class="name">HYCAERO LTD</span><span class="stand">1310</span></button></li>
+<li class="row" data-k="hyde-group" data-s="hyde group 1120c"><button type="button" class="hit" aria-pressed="false"><span class="name">Hyde Group</span><span class="stand">1120C</span></button></li>
+<li class="row" data-k="independent-forgings-alloys" data-s="independent forgings &amp; alloys 1131"><button type="button" class="hit" aria-pressed="false"><span class="name">Independent Forgings &amp; Alloys</span><span class="stand">1131</span></button></li>
+<li class="row" data-k="irvingq" data-s="irvingq 1221"><button type="button" class="hit" aria-pressed="false"><span class="name">IrvinGQ</span><span class="stand">1221</span></button></li>
+<li class="row" data-k="jaivel-aerospace" data-s="jaivel aerospace 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">Jaivel Aerospace</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="joss-engineering-barrow-ltd" data-s="joss engineering (barrow) ltd 1415"><button type="button" class="hit" aria-pressed="false"><span class="name">Joss Engineering (Barrow) Ltd</span><span class="stand">1415</span></button></li>
+<li class="row" data-k="keighley-laboratories" data-s="keighley laboratories 1310"><button type="button" class="hit" aria-pressed="false"><span class="name">Keighley Laboratories</span><span class="stand">1310</span></button></li>
+<li class="row" data-k="kenard-engineering-group" data-s="kenard engineering group 1034"><button type="button" class="hit" aria-pressed="false"><span class="name">Kenard Engineering Group</span><span class="stand">1034</span></button></li>
+<li class="row" data-k="laser-wire-solutions" data-s="laser wire solutions 1221"><button type="button" class="hit" aria-pressed="false"><span class="name">Laser Wire Solutions</span><span class="stand">1221</span></button></li>
+<li class="row" data-k="loop-technology" data-s="loop technology 1111"><button type="button" class="hit" aria-pressed="false"><span class="name">Loop Technology</span><span class="stand">1111</span></button></li>
+<li class="row" data-k="lpe-laser-prototypes-europe" data-s="lpe (laser prototypes europe) 1321"><button type="button" class="hit" aria-pressed="false"><span class="name">LPE (Laser Prototypes Europe)</span><span class="stand">1321</span></button></li>
+<li class="row" data-k="lucideon" data-s="lucideon 1036"><button type="button" class="hit" aria-pressed="false"><span class="name">Lucideon</span><span class="stand">1036</span></button></li>
+<li class="row" data-k="magellan-aerospace" data-s="magellan aerospace 4123"><button type="button" class="hit" aria-pressed="false"><span class="name">Magellan Aerospace</span><span class="stand">4123</span></button></li>
+<li class="row" data-k="maher" data-s="maher 4818"><button type="button" class="hit" aria-pressed="false"><span class="name">MAHER</span><span class="stand">4818</span></button></li>
+<li class="row" data-k="matt-black-systems" data-s="matt black systems 1400"><button type="button" class="hit" aria-pressed="false"><span class="name">Matt Black Systems</span><span class="stand">1400</span></button></li>
+<li class="row" data-k="maycast-nokes" data-s="maycast-nokes 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">Maycast-Nokes</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="mersen-uk-teesside" data-s="mersen uk teesside 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">Mersen UK Teesside</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="micro-spring-and-presswork-ltd" data-s="micro spring and presswork ltd 1030"><button type="button" class="hit" aria-pressed="false"><span class="name">Micro Spring and Presswork Ltd</span><span class="stand">1030</span></button></li>
+<li class="row" data-k="middlesex-aerospace" data-s="middlesex aerospace 1317"><button type="button" class="hit" aria-pressed="false"><span class="name">Middlesex Aerospace</span><span class="stand">1317</span></button></li>
+<li class="row" data-k="mini-gears" data-s="mini gears 1051"><button type="button" class="hit" aria-pressed="false"><span class="name">Mini Gears</span><span class="stand">1051</span></button></li>
+<li class="row" data-k="mj-sections-ltd" data-s="mj sections ltd 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">MJ Sections Ltd</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="msm-aerospace-fabricators" data-s="msm aerospace fabricators 1120q"><button type="button" class="hit" aria-pressed="false"><span class="name">MSM aerospace fabricators</span><span class="stand">1120Q</span></button></li>
+<li class="row" data-k="mtd-ltd" data-s="mtd ltd 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">MTD Ltd</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="nasmyth-group" data-s="nasmyth group 1300"><button type="button" class="hit" aria-pressed="false"><span class="name">Nasmyth Group</span><span class="stand">1300</span></button></li>
+<li class="row" data-k="needles-and-pins-aerospace" data-s="needles and pins aerospace 4238g"><button type="button" class="hit" aria-pressed="false"><span class="name">Needles and Pins Aerospace</span><span class="stand">4238G</span></button></li>
+<li class="row" data-k="novomorphic-ltd" data-s="novomorphic ltd 1221"><button type="button" class="hit" aria-pressed="false"><span class="name">Novomorphic Ltd</span><span class="stand">1221</span></button></li>
+<li class="row" data-k="okazaki-manufacturing-company-uk" data-s="okazaki manufacturing company uk 0050"><button type="button" class="hit" aria-pressed="false"><span class="name">Okazaki Manufacturing Company UK</span><span class="stand">0050</span></button></li>
+<li class="row" data-k="oldham-engineering" data-s="oldham engineering 4725"><button type="button" class="hit" aria-pressed="false"><span class="name">Oldham Engineering</span><span class="stand">4725</span></button></li>
+<li class="row" data-k="ondrives-ltd" data-s="ondrives ltd 2311"><button type="button" class="hit" aria-pressed="false"><span class="name">Ondrives Ltd</span><span class="stand">2311</span></button></li>
+<li class="row" data-k="ontic-engineering-manufacturing-ltd" data-s="ontic engineering &amp; manufacturing ltd 4120"><button type="button" class="hit" aria-pressed="false"><span class="name">Ontic Engineering &amp; Manufacturing Ltd</span><span class="stand">4120</span></button></li>
+<li class="row" data-k="oxley-group" data-s="oxley group 1310"><button type="button" class="hit" aria-pressed="false"><span class="name">Oxley Group</span><span class="stand">1310</span></button></li>
+<li class="row" data-k="p-k-fabrications" data-s="p&amp;k fabrications 3922"><button type="button" class="hit" aria-pressed="false"><span class="name">P&amp;K Fabrications</span><span class="stand">3922</span></button></li>
+<li class="row" data-k="packstat-ltd" data-s="packstat ltd 1221"><button type="button" class="hit" aria-pressed="false"><span class="name">Packstat Ltd</span><span class="stand">1221</span></button></li>
+<li class="row" data-k="paramount-panels-uk" data-s="paramount panels uk 1042"><button type="button" class="hit" aria-pressed="false"><span class="name">Paramount Panels UK</span><span class="stand">1042</span></button></li>
+<li class="row" data-k="phixos" data-s="phixos 4716"><button type="button" class="hit" aria-pressed="false"><span class="name">Phixos</span><span class="stand">4716</span></button></li>
+<li class="row" data-k="piran-advanced-composites" data-s="piran advanced composites 1120, c413"><button type="button" class="hit" aria-pressed="false"><span class="name">Piran Advanced Composites</span><span class="stand">1120, C413</span></button></li>
+<li class="row" data-k="polar-technology" data-s="polar technology 3840"><button type="button" class="hit" aria-pressed="false"><span class="name">Polar Technology</span><span class="stand">3840</span></button></li>
+<li class="row" data-k="porvair-filtration-group" data-s="porvair filtration group 4032"><button type="button" class="hit" aria-pressed="false"><span class="name">Porvair Filtration Group</span><span class="stand">4032</span></button></li>
+<li class="row" data-k="precise-components" data-s="precise components 0560"><button type="button" class="hit" aria-pressed="false"><span class="name">Precise Components</span><span class="stand">0560</span></button></li>
+<li class="row" data-k="precision-castparts-corp-pcc" data-s="precision castparts corp (pcc) c330-331"><button type="button" class="hit" aria-pressed="false"><span class="name">Precision Castparts Corp (PCC)</span><span class="stand">C330-331</span></button></li>
+<li class="row" data-k="precision-technologies-international" data-s="precision technologies international 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">Precision Technologies International</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="pro-roll-ltd" data-s="pro-roll ltd 41540"><button type="button" class="hit" aria-pressed="false"><span class="name">Pro-Roll Ltd</span><span class="stand">41540</span></button></li>
+<li class="row" data-k="process-automation-and-calibrations-pac-group" data-s="process automation and calibrations (pac group) 1321"><button type="button" class="hit" aria-pressed="false"><span class="name">Process Automation and Calibrations (PAC Group)</span><span class="stand">1321</span></button></li>
+<li class="row" data-k="progressive-technology-group" data-s="progressive technology group 1310"><button type="button" class="hit" aria-pressed="false"><span class="name">Progressive Technology Group</span><span class="stand">1310</span></button></li>
+<li class="row" data-k="prp-optoelectronics" data-s="prp optoelectronics 4238b"><button type="button" class="hit" aria-pressed="false"><span class="name">PRP Optoelectronics</span><span class="stand">4238B</span></button></li>
+<li class="row" data-k="rlc" data-s="rlc 41131"><button type="button" class="hit" aria-pressed="false"><span class="name">RLC</span><span class="stand">41131</span></button></li>
+<li class="row" data-k="rotary-precision-instruments-uk" data-s="rotary precision instruments uk 1120, c413"><button type="button" class="hit" aria-pressed="false"><span class="name">Rotary Precision Instruments UK</span><span class="stand">1120, C413</span></button></li>
+<li class="row" data-k="sam-aerospace-ni-ltd" data-s="sam aerospace (ni) ltd 1321"><button type="button" class="hit" aria-pressed="false"><span class="name">SAM Aerospace (NI) Ltd</span><span class="stand">1321</span></button></li>
+<li class="row" data-k="scintam-engineering" data-s="scintam engineering 0665"><button type="button" class="hit" aria-pressed="false"><span class="name">Scintam Engineering</span><span class="stand">0665</span></button></li>
+<li class="row" data-k="sellectronics" data-s="sellectronics 3928"><button type="button" class="hit" aria-pressed="false"><span class="name">Sellectronics</span><span class="stand">3928</span></button></li>
+<li class="row" data-k="senior-plc" data-s="senior plc 4911"><button type="button" class="hit" aria-pressed="false"><span class="name">Senior PLC</span><span class="stand">4911</span></button></li>
+<li class="row" data-k="shd-composite-materials" data-s="shd composite materials 1310"><button type="button" class="hit" aria-pressed="false"><span class="name">SHD Composite Materials</span><span class="stand">1310</span></button></li>
+<li class="row" data-k="sigma-sigma-components" data-s="sigma (sigma components) 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">Sigma (Sigma Components)</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="sigma-manufacturing-solutions" data-s="sigma manufacturing solutions 1310"><button type="button" class="hit" aria-pressed="false"><span class="name">Sigma Manufacturing Solutions</span><span class="stand">1310</span></button></li>
+<li class="row" data-k="sigmatex-uk" data-s="sigmatex uk 1310"><button type="button" class="hit" aria-pressed="false"><span class="name">Sigmatex UK</span><span class="stand">1310</span></button></li>
+<li class="row" data-k="smith-myers-communications" data-s="smith myers communications 1018"><button type="button" class="hit" aria-pressed="false"><span class="name">Smith Myers Communications</span><span class="stand">1018</span></button></li>
+<li class="row" data-k="southbourne-rubber" data-s="southbourne rubber 4736"><button type="button" class="hit" aria-pressed="false"><span class="name">Southbourne Rubber</span><span class="stand">4736</span></button></li>
+<li class="row" data-k="special-quality-alloys" data-s="special quality alloys 1521"><button type="button" class="hit" aria-pressed="false"><span class="name">Special Quality Alloys</span><span class="stand">1521</span></button></li>
+<li class="row" data-k="specialised-polymer-engineering" data-s="specialised polymer engineering 4817"><button type="button" class="hit" aria-pressed="false"><span class="name">Specialised Polymer Engineering</span><span class="stand">4817</span></button></li>
+<li class="row" data-k="surface-technology-international-ltd" data-s="surface technology international ltd 1317"><button type="button" class="hit" aria-pressed="false"><span class="name">Surface Technology International Ltd</span><span class="stand">1317</span></button></li>
+<li class="row" data-k="teconnex-ltd" data-s="teconnex ltd 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">Teconnex Ltd</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="tek4-limited" data-s="tek4 limited 3940"><button type="button" class="hit" aria-pressed="false"><span class="name">TEK4 Limited</span><span class="stand">3940</span></button></li>
+<li class="row" data-k="tekever" data-s="tekever 1160"><button type="button" class="hit" aria-pressed="false"><span class="name">TEKEVER</span><span class="stand">1160</span></button></li>
+<li class="row" data-k="teledyne" data-s="teledyne 2330"><button type="button" class="hit" aria-pressed="false"><span class="name">Teledyne</span><span class="stand">2330</span></button></li>
+<li class="row" data-k="the-boeing-company" data-s="the boeing company c201-206, c620"><button type="button" class="hit" aria-pressed="false"><span class="name">The Boeing Company</span><span class="stand">C201-206, C620</span></button></li>
+<li class="row" data-k="tioga-limited" data-s="tioga limited 1317"><button type="button" class="hit" aria-pressed="false"><span class="name">Tioga Limited</span><span class="stand">1317</span></button></li>
+<li class="row" data-k="trelleborg-aerospace" data-s="trelleborg aerospace 1115, c117"><button type="button" class="hit" aria-pressed="false"><span class="name">Trelleborg Aerospace</span><span class="stand">1115, C117</span></button></li>
+<li class="row" data-k="tridan-engineering" data-s="tridan engineering 1551"><button type="button" class="hit" aria-pressed="false"><span class="name">Tridan Engineering</span><span class="stand">1551</span></button></li>
+<li class="row" data-k="tritech-group" data-s="tritech group 4617"><button type="button" class="hit" aria-pressed="false"><span class="name">Tritech Group</span><span class="stand">4617</span></button></li>
+<li class="row" data-k="tt-electronics-plc-nwaa-stand" data-s="tt electronics (plc + nwaa stand) 4118; 1310"><button type="button" class="hit" aria-pressed="false"><span class="name">TT Electronics (plc + NWAA stand)</span><span class="stand">4118; 1310</span></button></li>
+<li class="row" data-k="ubloquity" data-s="ubloquity 1321"><button type="button" class="hit" aria-pressed="false"><span class="name">Ubloquity</span><span class="stand">1321</span></button></li>
+<li class="row" data-k="uk-precision-ltd" data-s="uk precision ltd 1120, c413"><button type="button" class="hit" aria-pressed="false"><span class="name">UK Precision Ltd</span><span class="stand">1120, C413</span></button></li>
+<li class="row" data-k="ultima-forma" data-s="ultima forma 1317"><button type="button" class="hit" aria-pressed="false"><span class="name">Ultima Forma</span><span class="stand">1317</span></button></li>
+<li class="row" data-k="viasat" data-s="viasat 4310"><button type="button" class="hit" aria-pressed="false"><span class="name">Viasat</span><span class="stand">4310</span></button></li>
+<li class="row" data-k="walker-aec-ltd" data-s="walker aec ltd 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">Walker AEC Ltd</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="wall-colmonoy" data-s="wall colmonoy 2322"><button type="button" class="hit" aria-pressed="false"><span class="name">Wall Colmonoy</span><span class="stand">2322</span></button></li>
+<li class="row" data-k="wallwork-heat-treatment" data-s="wallwork heat treatment 1000"><button type="button" class="hit" aria-pressed="false"><span class="name">Wallwork Heat Treatment</span><span class="stand">1000</span></button></li>
+<li class="row" data-k="william-cook-cast-products" data-s="william cook cast products 0055"><button type="button" class="hit" aria-pressed="false"><span class="name">William Cook Cast Products</span><span class="stand">0055</span></button></li>
+<li class="row" data-k="zb3-technologies" data-s="zb3 technologies 1560"><button type="button" class="hit" aria-pressed="false"><span class="name">ZB3 Technologies</span><span class="stand">1560</span></button></li>
+<li class="row" data-k="zenix-aerospace" data-s="zenix aerospace 4303"><button type="button" class="hit" aria-pressed="false"><span class="name">Zenix Aerospace</span><span class="stand">4303</span></button></li></ul></details>
+<details class="grp tail" id="svc"><summary><span class="eyebrow">Not simulation targets</span><h2>Distribution & services</h2><span class="count">51</span></summary><ul><li class="row" data-k="aerocom-metals" data-s="aerocom metals 1526"><button type="button" class="hit" aria-pressed="false"><span class="name">Aerocom Metals</span><span class="stand">1526</span></button></li>
+<li class="row" data-k="aerospace-coatings-ltd" data-s="aerospace coatings ltd 1317"><button type="button" class="hit" aria-pressed="false"><span class="name">Aerospace Coatings Ltd</span><span class="stand">1317</span></button></li>
+<li class="row" data-k="air-and-marine-products" data-s="air and marine products 1550"><button type="button" class="hit" aria-pressed="false"><span class="name">Air and Marine Products</span><span class="stand">1550</span></button></li>
+<li class="row" data-k="aircraft-materials-uk" data-s="aircraft materials uk 4831"><button type="button" class="hit" aria-pressed="false"><span class="name">Aircraft Materials UK</span><span class="stand">4831</span></button></li>
+<li class="row" data-k="all-metal-services" data-s="all metal services c209-210"><button type="button" class="hit" aria-pressed="false"><span class="name">All Metal Services</span><span class="stand">C209-210</span></button></li>
+<li class="row" data-k="apollo-aerospace-components" data-s="apollo aerospace components 1130"><button type="button" class="hit" aria-pressed="false"><span class="name">Apollo Aerospace Components</span><span class="stand">1130</span></button></li>
+<li class="row" data-k="ar-procurement-services" data-s="ar procurement services 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">AR Procurement Services</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="ashton-aerospace-defence" data-s="ashton aerospace &amp; defence 1048"><button type="button" class="hit" aria-pressed="false"><span class="name">Ashton Aerospace &amp; Defence</span><span class="stand">1048</span></button></li>
+<li class="row" data-k="auva-certification" data-s="auva certification 1120h"><button type="button" class="hit" aria-pressed="false"><span class="name">Auva Certification</span><span class="stand">1120H</span></button></li>
+<li class="row" data-k="aviation-defence-spares" data-s="aviation &amp; defence spares 4235"><button type="button" class="hit" aria-pressed="false"><span class="name">Aviation &amp; Defence Spares</span><span class="stand">4235</span></button></li>
+<li class="row" data-k="bloc-digital" data-s="bloc digital 4105, e009, e010, e028, 41314"><button type="button" class="hit" aria-pressed="false"><span class="name">Bloc Digital</span><span class="stand">4105, E009, E010, E028, 41314</span></button></li>
+<li class="row" data-k="carter-manufacturing" data-s="carter manufacturing 1031"><button type="button" class="hit" aria-pressed="false"><span class="name">Carter Manufacturing</span><span class="stand">1031</span></button></li>
+<li class="row" data-k="clarendon-specialty-fasteners" data-s="clarendon specialty fasteners 4900"><button type="button" class="hit" aria-pressed="false"><span class="name">Clarendon Specialty Fasteners</span><span class="stand">4900</span></button></li>
+<li class="row" data-k="cosine" data-s="cosine 4238j"><button type="button" class="hit" aria-pressed="false"><span class="name">Cosine</span><span class="stand">4238J</span></button></li>
+<li class="row" data-k="cre8tive-space" data-s="cre8tive space 1317"><button type="button" class="hit" aria-pressed="false"><span class="name">Cre8tive Space</span><span class="stand">1317</span></button></li>
+<li class="row" data-k="creative-hut" data-s="creative hut 0870"><button type="button" class="hit" aria-pressed="false"><span class="name">Creative Hut</span><span class="stand">0870</span></button></li>
+<li class="row" data-k="cristex" data-s="cristex 1310"><button type="button" class="hit" aria-pressed="false"><span class="name">Cristex</span><span class="stand">1310</span></button></li>
+<li class="row" data-k="dealey-environmental" data-s="dealey environmental 4028"><button type="button" class="hit" aria-pressed="false"><span class="name">Dealey Environmental</span><span class="stand">4028</span></button></li>
+<li class="row" data-k="didactic-services" data-s="didactic services 4803"><button type="button" class="hit" aria-pressed="false"><span class="name">Didactic Services</span><span class="stand">4803</span></button></li>
+<li class="row" data-k="duxford-avtech-by-hbd" data-s="duxford avtech by hbd 1317"><button type="button" class="hit" aria-pressed="false"><span class="name">Duxford AvTech by HBD</span><span class="stand">1317</span></button></li>
+<li class="row" data-k="dynamic-metals" data-s="dynamic metals 4910"><button type="button" class="hit" aria-pressed="false"><span class="name">Dynamic Metals</span><span class="stand">4910</span></button></li>
+<li class="row" data-k="fam-group" data-s="fam group 1120, c413"><button type="button" class="hit" aria-pressed="false"><span class="name">FAM Group</span><span class="stand">1120, C413</span></button></li>
+<li class="row" data-k="farsound-aviation" data-s="farsound aviation 1216"><button type="button" class="hit" aria-pressed="false"><span class="name">Farsound Aviation</span><span class="stand">1216</span></button></li>
+<li class="row" data-k="fastavia-limited" data-s="fastavia limited 3730"><button type="button" class="hit" aria-pressed="false"><span class="name">Fastavia Limited</span><span class="stand">3730</span></button></li>
+<li class="row" data-k="frasers-aerospace" data-s="frasers aerospace 1317"><button type="button" class="hit" aria-pressed="false"><span class="name">Frasers Aerospace</span><span class="stand">1317</span></button></li>
+<li class="row" data-k="freightline-carriers" data-s="freightline carriers 1056, 41542"><button type="button" class="hit" aria-pressed="false"><span class="name">Freightline Carriers</span><span class="stand">1056, 41542</span></button></li>
+<li class="row" data-k="fsl-aerospace" data-s="fsl aerospace 1500"><button type="button" class="hit" aria-pressed="false"><span class="name">FSL Aerospace</span><span class="stand">1500</span></button></li>
+<li class="row" data-k="gould-alloys" data-s="gould alloys 1231, c119-120"><button type="button" class="hit" aria-pressed="false"><span class="name">Gould Alloys</span><span class="stand">1231, C119-120</span></button></li>
+<li class="row" data-k="heamar-company" data-s="heamar company 4315"><button type="button" class="hit" aria-pressed="false"><span class="name">Heamar Company</span><span class="stand">4315</span></button></li>
+<li class="row" data-k="hellios-information" data-s="hellios information 1120p"><button type="button" class="hit" aria-pressed="false"><span class="name">Hellios Information</span><span class="stand">1120P</span></button></li>
+<li class="row" data-k="howco" data-s="howco 4836"><button type="button" class="hit" aria-pressed="false"><span class="name">Howco</span><span class="stand">4836</span></button></li>
+<li class="row" data-k="infortecorp-solutions" data-s="infortecorp solutions 4238h"><button type="button" class="hit" aria-pressed="false"><span class="name">Infortecorp Solutions</span><span class="stand">4238H</span></button></li>
+<li class="row" data-k="inspectahire-instrument-co" data-s="inspectahire instrument co. 4238c"><button type="button" class="hit" aria-pressed="false"><span class="name">Inspectahire Instrument Co.</span><span class="stand">4238C</span></button></li>
+<li class="row" data-k="interconnect-solutions-group-is-group" data-s="interconnect solutions group (is-group) 4900"><button type="button" class="hit" aria-pressed="false"><span class="name">Interconnect Solutions Group (IS-Group)</span><span class="stand">4900</span></button></li>
+<li class="row" data-k="knight-precision-metals" data-s="knight precision metals 1028"><button type="button" class="hit" aria-pressed="false"><span class="name">Knight Precision Metals</span><span class="stand">1028</span></button></li>
+<li class="row" data-k="metalex" data-s="metalex 4719"><button type="button" class="hit" aria-pressed="false"><span class="name">Metalex</span><span class="stand">4719</span></button></li>
+<li class="row" data-k="metalweb" data-s="metalweb 1310"><button type="button" class="hit" aria-pressed="false"><span class="name">Metalweb</span><span class="stand">1310</span></button></li>
+<li class="row" data-k="mthree-corporate-consulting" data-s="mthree corporate consulting 0765"><button type="button" class="hit" aria-pressed="false"><span class="name">MThree Corporate Consulting</span><span class="stand">0765</span></button></li>
+<li class="row" data-k="nq-aero-group" data-s="nq aero group 1317"><button type="button" class="hit" aria-pressed="false"><span class="name">NQ Aero Group</span><span class="stand">1317</span></button></li>
+<li class="row" data-k="oracle-special-metals" data-s="oracle special metals 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">Oracle Special Metals</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="righton-blackburns" data-s="righton blackburns 1117"><button type="button" class="hit" aria-pressed="false"><span class="name">Righton Blackburns</span><span class="stand">1117</span></button></li>
+<li class="row" data-k="salamandra-uk" data-s="salamandra uk 1120g"><button type="button" class="hit" aria-pressed="false"><span class="name">Salamandra UK</span><span class="stand">1120G</span></button></li>
+<li class="row" data-k="sj-group" data-s="sj group 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">SJ Group</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="smiths-advanced-metals" data-s="smiths advanced metals 1120k"><button type="button" class="hit" aria-pressed="false"><span class="name">Smiths Advanced Metals</span><span class="stand">1120K</span></button></li>
+<li class="row" data-k="squarcle-consulting" data-s="squarcle consulting 0650"><button type="button" class="hit" aria-pressed="false"><span class="name">Squarcle Consulting</span><span class="stand">0650</span></button></li>
+<li class="row" data-k="techsil" data-s="techsil 4900"><button type="button" class="hit" aria-pressed="false"><span class="name">TECHSiL</span><span class="stand">4900</span></button></li>
+<li class="row" data-k="the-hr-dept" data-s="the hr dept 1317"><button type="button" class="hit" aria-pressed="false"><span class="name">The HR Dept</span><span class="stand">1317</span></button></li>
+<li class="row" data-k="ti-tek-uk-limited" data-s="ti-tek [uk] limited 1317"><button type="button" class="hit" aria-pressed="false"><span class="name">TI-TEK [UK] Limited</span><span class="stand">1317</span></button></li>
+<li class="row" data-k="united-performance-metals-ltd" data-s="united performance metals ltd 1321"><button type="button" class="hit" aria-pressed="false"><span class="name">United Performance Metals Ltd</span><span class="stand">1321</span></button></li>
+<li class="row" data-k="valbruna-uk" data-s="valbruna uk 1320"><button type="button" class="hit" aria-pressed="false"><span class="name">Valbruna UK</span><span class="stand">1320</span></button></li>
+<li class="row" data-k="valuechain" data-s="valuechain 1520"><button type="button" class="hit" aria-pressed="false"><span class="name">Valuechain</span><span class="stand">1520</span></button></li></ul></details>
+  <p class="foot">Ranked for simulation-tools interest (Tier 5 first, in priority order; others A–Z). Stands verbatim from the official FIA2026 exhibitor listing, all 65 pages. Visited marks are saved on this device.</p>
+</div>
+<script>
+(function(){
+  var KEY="fia26-visited", store={};
+  try{store=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){}
+  function save(){try{localStorage.setItem(KEY,JSON.stringify(store))}catch(e){}}
+  document.querySelectorAll(".row").forEach(function(li){
+    var k=li.getAttribute("data-k"), btn=li.querySelector(".hit");
+    if(store[k]){li.classList.add("done");btn.setAttribute("aria-pressed","true");}
+    btn.addEventListener("click",function(){
+      var on=li.classList.toggle("done");
+      btn.setAttribute("aria-pressed",on?"true":"false");
+      if(on){store[k]=1}else{delete store[k]}
+      save();
+    });
+  });
+  var q=document.getElementById("q");
+  q.addEventListener("input",function(){
+    var v=q.value.trim().toLowerCase();
+    document.querySelectorAll(".row").forEach(function(li){
+      li.classList.toggle("hide", v!=="" && li.getAttribute("data-s").indexOf(v)===-1);
+    });
+    document.querySelectorAll("details.grp").forEach(function(d){
+      if(v!==""){d.setAttribute("open","")}
+    });
+  });
+})();
+</script>
