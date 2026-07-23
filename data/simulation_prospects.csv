@@ -1,0 +1,318 @@
+Tier (5=hot),Company,Stand,Rationale,Category,UK basis,Source Page
+5,Airbus,"4105, E009, E010, E028",Filton wing aero/loads + ZEROe hydrogen workstreams; large multiphysics estate; UK R&D buys tools locally,Overseas parent - UK engineering/R&D/manufacturing site,Wing design + R&D Filton; wing mfg Broughton; Space/Defence Stevenage + Portsmouth,4
+5,Avvron Ltd,1317,"UK-designed heavy-fuel UAV engines: classic AVL fit (cycle sim, combustion CFD, cranktrain/friction dynamics)",UK company - engineering/manufacturing/R&D,UK design + manufacture of heavy-fuel UAV engines,10
+5,BAE Systems,HALL5,"GCAP/Tempest model-based digital enterprise, PHASA-35 HAPS (solar-electric, batteries), hybrid demonstrators; enterprise-scale co-simulation/XiL buyer",UK company - engineering/manufacturing/R&D,"HQ Farnborough; engineering Warton, Samlesbury, Rochester, Barrow",10
+5,Drive System Design,0080,Electrified-propulsion engineering consultancy: heavy simulation user (also a services competitor); buys e-drive/system tools,UK company - engineering/manufacturing/R&D,Leamington Spa; electrified propulsion engineering,19
+5,Evolito,1107,Aerospace axial-flux e-motors + DAL-A power systems: electromagnetic/thermal/NVH e-machine simulation (EXCITE M class) and certification-grade MBD,UK company - engineering/manufacturing/R&D,Bicester; electric motors + DAL-A power systems for aerospace,22
+5,GCAP Agency and Edgewing,"E016, E018","Next-gen fighter JV standing up a digital/model-based engineering ecosystem in Reading now - co-simulation, digital twin and toolchain decisions being made",UK company - engineering/manufacturing/R&D,"Edgewing (GCAP industry JV, BAE/Leonardo/JAIEC) and the trilateral GCAP Agency, both headquartered in UK (Reading)",25
+5,GKN Aerospace,C231-233A,"H2GEAR liquid-hydrogen propulsion programme + electrical wing at Global Technology Centre Bristol: fuel-cell, cryogenic thermal and e-systems simulation",UK company - engineering/manufacturing/R&D,"HQ UK (Melrose Industries); Global Technology Centre Bristol (R&D); Filton, Cowes, Luton",25
+5,Greenjets Ltd,4042,"Electric ducted-fan propulsion development: fan aero CFD, e-motor, battery-system simulation",UK company - engineering/manufacturing/R&D,UK; ducted-fan electric propulsion development,26
+5,Helix,1320,"Aerospace electric powertrains (ex-Integral Powertrain, automotive pedigree - likely already knows AVL): e-machine + inverter design simulation",UK company - engineering/manufacturing/R&D,Milton Keynes; electric powertrains for aerospace (AS9100 UK team),28
+5,Hewland Engineering,1320,Designs+tests aerospace/eVTOL transmissions: gear dynamics and NVH simulation (EXCITE core use-case),UK company - engineering/manufacturing/R&D,Maidenhead; aerospace transmission design/test/manufacture,28
+5,Intelligent Energy Ltd,1120J,"Aviation hydrogen fuel cells (IE-FLIGHT): stack electrochemistry, thermal and system simulation - direct FIRE M / CRUISE M fit",UK company - engineering/manufacturing/R&D,Loughborough; hydrogen fuel-cell R&D + manufacture,31
+5,ITP Aero,1311,"Whetstone engine design centre (~850 eng): rotatives design, engine-airframe integration, control systems, test-rig modelling",Overseas parent - UK engineering/R&D/manufacturing site,"ITP Aero UK Whetstone (Leics): design + manufacturing engineering, ~850 UK staff",32
+5,Leonardo SpA,"B010, B012","Yeovil helicopters: main-gearbox dynamics/NVH (EXCITE Power Unit territory), rotor loads, electrification studies; Edinburgh radar thermal",Overseas parent - UK engineering/R&D/manufacturing site,"Yeovil helicopters; Edinburgh radar; Luton EW; Basildon + Bristol (~9,500 UK staff)",35
+5,MBDA (UK) / MBDA Corporate,E032; 1230,"Missile propulsion (solid/turbojet), aerothermal, guidance HWIL, model-based engineering at Stevenage/Bristol; deep simulation budget",UK company - engineering/manufacturing/R&D,"European JV; MBDA UK HQ Stevenage, mfg Bolton, engineering Bristol",37
+5,Nema Ltd,4215,High-speed high-temp aerospace motors + active magnetic bearing R&D: rotordynamics + EM co-simulation,UK company - engineering/manufacturing/R&D,"UK (est. 1954); springs + aerospace electric motors, magnetic-bearing R&D",41
+5,PMW Dynamics,3000,"Bespoke aerospace e-motors (jet starters, UAV/HAPS propulsion): EM-thermal motor design simulation",UK company - engineering/manufacturing/R&D,UK design + manufacture of bespoke aerospace electric motors,45
+5,Rolls-Royce Plc,C405-407,"Gas turbines + UltraFan power gearbox (EXCITE-class dynamics), combustion, thermals, hybrid-electric heritage (ACCEL); largest UK CAE budget, entrenched in-house/vendor mix",UK company - engineering/manufacturing/R&D,"HQ London; engineering/R&D Derby, Bristol",49
+5,RTX (Pratt & Whitney | Collins | Raytheon),C301-305,"Collins Wolverhampton elecTRAS electro-mechanical actuation centre: EMA, power-electronics and thermal simulation; local UK engineering procurement",Overseas parent - UK engineering/R&D/manufacturing site,"Collins: Wolverhampton actuation engineering, Solihull, Banbury; Raytheon UK: Harlow, Glenrothes mfg+eng",49
+5,Vertical Aerospace,"41000, C314-314A","eVTOL OEM in certification: in-house battery packs, e-powertrain, thermal mgmt, loads - full AVL AAM stack (battery, e-drive, thermal, systems, XiL)",UK company - engineering/manufacturing/R&D,HQ + engineering Bristol (VX4/Valo eVTOL),62
+5,ZeroAvia,1113,"Hydrogen-electric powertrains: PEM fuel-cell stack/BoP simulation, H2 storage, e-motor, thermal - exactly AVL's H2 aviation offering; UK R&D at Kemble",Overseas parent - UK engineering/R&D/manufacturing site,US/UK company; UK R&D + flight test at Cotswold Airport (Kemble); HyperCore UK,65
+4,AALTO,4729,"Zephyr stratospheric UAS: battery (Si-anode), solar-electric propulsion, extreme thermal - battery aging + thermal simulation",UK company - engineering/manufacturing/R&D,HQ Farnborough (Airbus subsidiary); Zephyr stratospheric UAS development,1
+4,AMETEK,"3019, 3121, C112",Airtechnology Weybridge fans/motors/thermal systems: fan aero + e-motor simulation,Overseas parent - UK engineering/R&D/manufacturing site,AMETEK Airtechnology (Weybridge): fans/motors/thermal design + mfg,6
+4,Argive,4238E,"Alloyed venture: engines via digital twin + AM - builds own digital platform, may license combustion/system CAE",UK company - engineering/manufacturing/R&D,"Oxford (Alloyed venture); digitally-manufactured propulsion, UK IP",8
+4,B2Space,4000,"Near-space launch (rockoon): propulsion, aerothermal, trajectory simulation (early stage)",UK company - engineering/manufacturing/R&D,Newport (Wales); near-space balloon launch systems,10
+4,Callen-Lenz,1331,"UAS design house: flight dynamics, propulsion integration, autonomy simulation",UK company - engineering/manufacturing/R&D,Wiltshire; UAS design and development,13
+4,Cambridge Aerospace,0620,"Interceptor developer (Skyhammer): propulsion, aero, GNC simulation - fast-moving, tool-hungry startup",UK company - engineering/manufacturing/R&D,Cambridge; autonomous counter-UAS/cruise-missile interceptors (Skyhammer),13
+4,CAV Systems Ltd,1525,"Ice protection design: icing CFD (FENSAP-class) + thermal simulation - strong general-CAE buyer, low AVL overlap",UK company - engineering/manufacturing/R&D,Consett; ice-protection systems design + manufacture,14
+4,"Dowty, a GE Aerospace company",B026,"Propeller design Gloucester: aeroelastics, composites, hub dynamics simulation",UK company - engineering/manufacturing/R&D,"Propeller design + manufacture, Gloucester (GE-owned)",19
+4,Eaton (+ Ultra PCS),C226-227A; C128,Fuel systems + air-to-air refuelling (Wimborne) and stores/controls (Cheltenham): fluid-system and controls simulation,Overseas parent - UK engineering/R&D/manufacturing site,Mission Systems Wimborne (ex-Cobham AAR); Ultra PCS Cheltenham controls engineering,20
+4,GE Aerospace,B026,"Cheltenham avionics/power + Dowty adjacency; strong in-house tools, selective external buys",Overseas parent - UK engineering/R&D/manufacturing site,Cheltenham (Bishops Cleeve) avionics/power engineering; Cardiff MRO; (Dowty + Druck listed separately),25
+4,Honeywell (Aerospace + Control Systems Ltd),C134; 4921,Yeovil environmental control/life support: thermodynamic + fluid system simulation (toolchain often US-steered),Overseas parent - UK engineering/R&D/manufacturing site,Yeovil life-support engineering; UK sensing/switching manufacturing site,29
+4,Héroux-Devtek,4321,"APPH Runcorn landing-gear design: drop dynamics, hydraulics, structures simulation",Overseas parent - UK engineering/R&D/manufacturing site,APPH Runcorn + Nottingham: landing-gear design/manufacture,28
+4,Lockheed Martin (+ Corporation),"4110; C412, C501",LM UK Ampthill military land vehicles/turrets: AVL's defence powertrain + vehicle-systems simulation strength applies,Overseas parent - UK engineering/R&D/manufacturing site,LM UK Ampthill engineering (vehicles/systems),35
+4,Martin-Baker Aircraft Co.,"1260, C109","Ejection systems: crash/multibody/aero/pyro simulation - heavy general-CAE user, low AVL overlap",UK company - engineering/manufacturing/R&D,HQ + engineering Denham (ejection seats),37
+4,Missiles and Space Batteries Ltd,1016,Thermal battery design: electrochemical + thermal transient simulation (niche chemistry),UK company - engineering/manufacturing/R&D,UK thermal battery design + manufacture,39
+4,Moog Inc.,C218-219,Tewkesbury actuation design: servo-hydraulic/EMA system simulation,Overseas parent - UK engineering/R&D/manufacturing site,Tewkesbury design + manufacture (actuation),40
+4,Olsen Actuators & Drives,4804,EMA/roller-screw design for space/eVTOL/defence: drivetrain + motor simulation,UK company - engineering/manufacturing/R&D,UK electro-mechanical actuators + roller screws design,43
+4,Parker Aerospace (incl. Parker Meggitt),C107-108,"Braking thermal, fire/sensing, fluid conveyance engineering at Ansty: thermal + fluid system simulation",Overseas parent - UK engineering/R&D/manufacturing site,"Parker Meggitt UK: Ansty Park (Coventry) HQ/engineering + UK sites (braking, sensors, polymers)",44
+4,QinetiQ Ltd,C101-103,National T&E and research house: broad modelling & simulation user across air/land/sea; tool-evaluation culture,UK company - engineering/manufacturing/R&D,"HQ Cody Technology Park, Farnborough; R&D and test (Boscombe Down etc.)",47
+4,Saab AB,C403,"Saab UK: Blue Bear (Bedford) autonomy R&D + Seaeye (Fareham) electric underwater vehicles - batteries, e-motors, autonomy sim",Overseas parent - UK engineering/R&D/manufacturing site,Saab UK: Seaeye (Fareham) engineering; Blue Bear (Bedford) autonomy R&D,49
+4,Stirling Dynamics,"1120, C413",Flight controls/actuation + simulation services (Expleo): buys modelling tools; also partner/competitor for services,UK company - engineering/manufacturing/R&D,Bristol engineering (flight controls/simulation-adjacent eng services; Expleo-owned),54
+4,Windracers,4350,"ULTRA heavy-lift UAV OEM: piston propulsion integration, flight loads, reliability modelling",UK company - engineering/manufacturing/R&D,UK (Southampton); ULTRA heavy-lift autonomous UAV,64
+4,Zero Emissions Aerospace (ZeAero),0760,Zero-emission propulsion engineering: hydrogen/electric system simulation (small team),UK company - engineering/manufacturing/R&D,UK aerospace engineering for zero-emission flight (est. 2019),65
+3,Advanced Manufacturing Innovation Centre (AMIC),1321,QUB Belfast manufacturing R&D: process simulation,UK organisation (government/academic/RTO/association),Queen's University Belfast R&D centre,2
+3,Aerospace Technology Institute,1111,Programme funder/influencer for UK propulsion R&D (not a buyer itself),UK organisation (government/academic/RTO/association),UK aerospace technology institute (with HVM Catapult showcase),3
+3,Alfor Aviation,C129,P2F conversion development: structures/loads simulation,UK company - engineering/manufacturing/R&D,Founded/based Bournemouth; P2F conversion technology (Alarko/Foravia backing),5
+3,"Altitude, University of Lancashire",1310,Air/space innovation facility with indoor flight-test zone,UK organisation (government/academic/RTO/association),University air + space innovation facility,6
+3,Amentum,3931,Engineering services: project-driven simulation use,Overseas parent - UK engineering/R&D/manufacturing site,Major UK engineering-services workforce (defence + nuclear sites),6
+3,AtkinsRéalis,C131-132,Engineering consultancy: bulk CAE license buyer + potential channel/partner,Overseas parent - UK engineering/R&D/manufacturing site,UK engineering consultancy heritage (Epsom etc.); A&D engineering (Canadian parent),9
+3,"AVRRC, Loughborough University",0675,VR/simulation research centre; Loughborough links to Intelligent Energy,UK organisation (government/academic/RTO/association),Advanced VR Research Centre,10
+3,Babcock International Group,"C325, 4238L",Support engineering: selective simulation use,UK company - engineering/manufacturing/R&D,"HQ London; engineering Bristol, Devonport, Rosyth",10
+3,Castings Technology (Cti),0060,Casting R&D house: solidification/process simulation (MAGMA/ProCAST class),UK company - engineering/manufacturing/R&D,Sheffield; UK's only commercial titanium investment caster + casting R&D,14
+3,Cranfield University (+ CraneAero PoT),1027; PI-25,Academic: propulsion/electrification research - university partnership programme target,UK organisation (government/academic/RTO/association),University R&D,16
+3,Cross Manufacturing,2008,"Brush/ring seals for engines: secondary-air + sealing simulation, credible niche",UK company - engineering/manufacturing/R&D,Bath; sealing rings/brush seals design + manufacture,17
+3,Elbit Systems,1330,UK electro-optics/avionics engineering: moderate multiphysics needs,Overseas parent - UK engineering/R&D/manufacturing site,Elbit Systems UK Bristol; Instro Precision (Broadstairs) design + mfg,20
+3,General Dynamics Mission Systems,1207,Hastings avionics: HIL/embedded rather than multiphysics,Overseas parent - UK engineering/R&D/manufacturing site,GD UK Hastings avionics engineering; equips British Armed Forces,25
+3,Hexcel,C211-212,Duxford composites R&D: process/materials modelling,Overseas parent - UK engineering/R&D/manufacturing site,Duxford composites R&D + manufacturing,28
+3,High Value Manufacturing Catapult,1111,Manufacturing R&D network: process simulation,UK organisation (government/academic/RTO/association),UK manufacturing R&D catapult network,28
+3,iCOMAT,1320,Fibre-steered composites: process + structural simulation user,UK company - engineering/manufacturing/R&D,Bristol; rapid tow-shearing composite manufacturing,30
+3,Institute for Aerospace Technology (Univ. of Nottingham),1320,As above (exhibits on MAA stand),UK organisation (government/academic/RTO/association),University aerospace research institute,31
+3,L3Harris Technologies,2531,Crawley builds training simulators - simulation company itself; buys flight models/IGs rather than CAE,Overseas parent - UK engineering/R&D/manufacturing site,Crawley simulation + training mfg; Tewkesbury EW; other UK sites,34
+3,Magnet Schultz Ltd,4721,Solenoid/electromagnet design: EM simulation buyer (JMAG/Maxwell class),Overseas parent - UK engineering/R&D/manufacturing site,Woking: solenoid/electromagnetic design + manufacture (German parent),36
+3,Marshall Aerospace,3321,Mods/integration engineering: structures/fuel system analysis,UK company - engineering/manufacturing/R&D,HQ Cambridge (relocating to Cranfield); military MRO + design engineering,37
+3,MDA Space,4500,Harwell robotics: multibody/controls simulation,Overseas parent - UK engineering/R&D/manufacturing site,MDA UK (Harwell) space robotics/engineering,37
+3,NCC and West of England Mayoral Combined Authority,1120F,National Composites Centre: composites process simulation at scale,UK organisation (government/academic/RTO/association),National Composites Centre + regional authority,41
+3,Northrop Grumman,C604,UK nav/mission systems: moderate,Overseas parent - UK engineering/R&D/manufacturing site,"NG UK: New Malden navigation systems, UK software/mission engineering",42
+3,Open Cosmos,4614,"Smallsat design: mission/thermal sim, space-specific",UK company - engineering/manufacturing/R&D,Harwell; small-satellite design + missions,44
+3,Pall Corporation,3327,Portsmouth filtration R&D: CFD user,Overseas parent - UK engineering/R&D/manufacturing site,Portsmouth filtration R&D + manufacturing,44
+3,Proxima Powder Metallurgy,0085,PM-HIP aerostructures: process + structures simulation for design freedom claims,UK company - engineering/manufacturing/R&D,Sheffield; PM-HIP near-net-shape aerostructures,47
+3,SKF,1360,AMPEP Clevedon aero bearings: tribology simulation (largely in-house SKF tools),Overseas parent - UK engineering/R&D/manufacturing site,SKF AMPEP (Clevedon): aerospace plain bearings engineering + mfg,52
+3,Space Forge,4004,Re-entry aerothermal + in-space process simulation (space-specific),UK company - engineering/manufacturing/R&D,Cardiff; in-space manufacturing satellites,53
+3,Surrey Satellite Technology Ltd,4705,Spacecraft thermal/power simulation (space-specific toolchain),UK company - engineering/manufacturing/R&D,HQ + engineering Guildford (Airbus-owned),55
+3,Syensqo,C220,Composite materials R&D: process/materials modelling,Overseas parent - UK engineering/R&D/manufacturing site,Wrexham + Heanor composite materials manufacturing/technology,55
+3,Tata Technologies Europe Ltd,0140,"Engineering services (Warwick): heavy sim user, also a competitor/reseller ecosystem",Overseas parent - UK engineering/R&D/manufacturing site,Warwick engineering centre (Indian parent),56
+3,TISICS Ltd,1317,Metal-matrix composite development: micromechanics/process modelling,UK company - engineering/manufacturing/R&D,Farnborough; metal-matrix composites R&D + manufacture,58
+3,Transense Technologies plc,4801,SAW torque/temperature sensing R&D: partner potential for test/validation more than CAE buyer,UK company - engineering/manufacturing/R&D,Bicester; sensor systems R&D and licensing (SAW technology),58
+3,TWI Limited,1046,Joining/structural integrity RTO: process + FEA simulation services buyer,UK company - engineering/manufacturing/R&D,Cambridge; welding/joining R&D organisation (membership RTO),60
+3,UAVE Ltd,1221,Long-endurance UAV manufacture/ops: flight-performance + engine integration modelling,UK company - engineering/manufacturing/R&D,Aberystwyth (Wales); long-endurance fixed-wing UAVs,60
+3,University of Nottingham,1026,Institute for Aerospace Technology: UK aerospace electrification research hub - strong academic target,UK organisation (government/academic/RTO/association),University,61
+2,Amphenol Ltd,1210,Interconnect design: SI + mechanical FEA niche,UK company - engineering/manufacturing/R&D,"Whitstable design + manufacture, interconnect (US parent)",6
+2,Antrica,4644,Video encoder boards: SI/thermal at board level,UK company - engineering/manufacturing/R&D,UK design of miniature low-latency video encoders for UAV/robotics,7
+2,Barnbrook Systems Ltd,1317,Electro-mechanical units: modest,UK company - engineering/manufacturing/R&D,Fareham electro-mechanical engineering,11
+2,CDI-Hallite Aerospace,4034,Seals: elastomer FEA niche,UK company - engineering/manufacturing/R&D,"Hallite Seals: design + manufacture, Hampton (UK); group with US ops",14
+2,Cygnet Texkimp,1310,"Machinery design: machine FEA, niche",UK company - engineering/manufacturing/R&D,Northwich; composites handling/converting machinery,17
+2,D-RisQ Ltd,1320,"Sells formal-verification software: partner in certification MBD toolchains, not a CAE buyer",UK company - engineering/manufacturing/R&D,Malvern; automatic software verification tools (DO-178C Level A),17
+2,Doncasters,3550,Precision casting: process simulation only,UK company - engineering/manufacturing/R&D,HQ Burton upon Trent; UK precision-casting plants,19
+2,Duvelco Limited,3832,"Polyimide materials: tribology/materials characterisation, small CAE need",UK company - engineering/manufacturing/R&D,UK manufacturer of PMDA-ODA polyimide polymers (Ducoya) + R&D,19
+2,Element Materials Technology,1116,"Physical test house: complementary to simulation, small tool spend",UK company - engineering/manufacturing/R&D,UK-headquartered (London); 36 UK testing labs,20
+2,Eutelsat Group,4503,"OneWeb ops: constellation/link simulation, space-specific",Overseas parent - UK engineering/R&D/manufacturing site,OneWeb (London): LEO constellation operations + engineering,22
+2,Expromet Technologies Group,1548,Castings group: process simulation only,UK company - engineering/manufacturing/R&D,"UK castings/fabrication group (Investacast, Haworth, Metaltech, Tiverton)",22
+2,Forged Solutions Group,4535,Forging: process simulation (FORGE/DEFORM class),UK company - engineering/manufacturing/R&D,UK-headquartered aerospace forgings (Sheffield + UK/US sites),24
+2,Goonhilly / COMSAT,4514,"Ground segment: RF/link budget, little multiphysics",UK company - engineering/manufacturing/R&D,Goonhilly (Cornwall); deep-space comms ground segment engineering,26
+2,HQW Aerospace,1532,Precision bearings: bearing analysis niche,UK company - engineering/manufacturing/R&D,Plymouth; super-precision bearings design + manufacture,29
+2,HR Smith Group,1060,Antennas/ELT: RF simulation niche,UK company - engineering/manufacturing/R&D,Herefordshire; antennas + emergency locator systems,29
+2,Independent Forgings & Alloys,1131,Forging: process simulation only,UK company - engineering/manufacturing/R&D,Sheffield open-die forgings,31
+2,Loop Technology,1111,Composites automation: robot/offline-programming simulation,UK company - engineering/manufacturing/R&D,Dorchester; composites automation (on ATI stand),35
+2,Lucideon,1036,Materials consultancy: limited CAE,UK company - engineering/manufacturing/R&D,Stoke-on-Trent; materials development + testing R&D,36
+2,Matt Black Systems,1400,MMI/avionics units: modest structural/thermal analysis,UK company - engineering/manufacturing/R&D,Poole; man-machine interface design + manufacture,37
+2,Novomorphic Ltd,1221,"Semiconductor design house: EDA simulation (Cadence ecosystem), not multiphysics CAE",UK company - engineering/manufacturing/R&D,Cardiff; semiconductor design house,42
+2,Oxley Group,1310,Electronics/lighting design: modest thermal/optical simulation,UK company - engineering/manufacturing/R&D,Ulverston; military-aerospace electronics/LED lighting design + mfg,44
+2,Phixos,4716,Safety-critical software/hardware engineering: V&V tooling rather than CAE,UK company - engineering/manufacturing/R&D,"UK safety-critical software, firmware + hardware engineering",45
+2,Porvair Filtration Group,4032,Filtration: CFD niche,UK company - engineering/manufacturing/R&D,Fareham + King's Lynn; filtration design + manufacture,46
+2,Scintam Engineering,0665,"Portable EDM tools: EDM process modelling, niche",UK company - engineering/manufacturing/R&D,Nottingham (UoN spin-out); portable EDM fastener-removal tools,50
+2,SHD Composite Materials,1310,Prepreg manufacture: modest process modelling,UK company - engineering/manufacturing/R&D,"HQ UK (Sleaford); prepreg materials, sites UK/EU/US",51
+2,Smith Myers Communications,1018,Airborne comms: RF simulation niche,UK company - engineering/manufacturing/R&D,UK; airborne mobile-phone detection/location systems (since 1986),53
+2,Special Quality Alloys,1521,Forging/processing: process simulation only,UK company - engineering/manufacturing/R&D,Sheffield; forging + bar processing,54
+2,Specialised Polymer Engineering,4817,Seals: elastomer FEA niche,UK company - engineering/manufacturing/R&D,Southampton; aerospace sealing design to production,54
+2,TEK4 Limited,3940,EDM machine design: machine-level FEA/controls,UK company - engineering/manufacturing/R&D,Rugby; fast-hole EDM/laser drilling machine design + manufacture,56
+2,Teledyne,2330,"e2v sensors/semis: device-level TCAD/EDA, not AVL domain",Overseas parent - UK engineering/R&D/manufacturing site,Teledyne UK (e2v) Chelmsford: sensors/semiconductors R&D + mfg,57
+2,Trelleborg Aerospace,"1115, C117",Seal design: elastomer FEA,Overseas parent - UK engineering/R&D/manufacturing site,Tewkesbury aerospace sealing design + manufacture,59
+2,Viasat,4310,UK ops/engineering is comms-centric,Overseas parent - UK engineering/R&D/manufacturing site,London (ex-Inmarsat) engineering + network operations,62
+1,Abrasive Technology Ltd,1221,Heuristic: manufacturing/services profile - little design simulation,Overseas parent - UK engineering/R&D/manufacturing site,UK (Wales) electroplated-coatings operations (US parent),1
+1,Accles & Pollock,1320,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Oldbury (West Midlands) tube manipulation + fabrication,1
+1,Accrofab,1320,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Derby formed/fabricated engine + airframe components,1
+1,ADS Group,"1120, C413",Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),UK aerospace/defence/security/space trade association (UK pavilion host),1
+1,ADS South West,1217,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),Regional trade association,1
+1,Aernnova Aerospace,1138,Heuristic: manufacturing/services profile - little design simulation,Overseas parent - UK engineering/R&D/manufacturing site,Hamble Aerostructures (Southampton) engineering + manufacture,2
+1,Aerocom Metals,1526,Distribution/services - no simulation need,UK-based distribution/services/software,Coventry; aerospace metals stockholder (UK HQ),2
+1,Aerospace Coatings Ltd,1317,Distribution/services - no simulation need,UK-based distribution/services/software,UK surface-engineering consultancy; UK representative for Rübig,3
+1,Aerotron Composites Ltd,1320,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK composites manufacture (heritage to 1950s),4
+1,Air and Marine Products,1550,Distribution/services - no simulation need,UK-based distribution/services/software,"UK AS9120B distributor, electro-mechanical components",4
+1,Aircraft Materials UK,4831,Distribution/services - no simulation need,UK-based distribution/services/software,UK stockist/distributor of specialist metals,4
+1,All Metal Services,C209-210,Distribution/services - no simulation need,UK-based distribution/services/software,"Rotherham-based aerospace metals service centres (Reliance, US parent)",5
+1,Alloy Wire International,1320,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Brierley Hill exotic-alloy wire manufacture,5
+1,Angoka,1321,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Belfast; cybersecurity hardware for mobility/UAS,7
+1,Apollo Aerospace Components,1130,Distribution/services - no simulation need,UK-based distribution/services/software,Redditch; fastener/component distribution (UK HQ),7
+1,AR Procurement Services,1320,Distribution/services - no simulation need,UK-based distribution/services/software,UK procurement/business-change consultancy,7
+1,ARRK Europe,1310,Heuristic: manufacturing/services profile - little design simulation,Overseas parent - UK engineering/R&D/manufacturing site,"Nuneaton Technical Centre: design, machining, composites (Japanese parent)",8
+1,ASG Aerospace,1320,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK-led precision engineering group (7 UK + Germany sites),8
+1,Ashton Aerospace & Defence,1048,Distribution/services - no simulation need,UK-based distribution/services/software,"UK (Ashton Group, est. 1866); seals/fasteners supply + technical support",8
+1,Automatic Industrial Machines Ltd,"1120, C413",Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK precision machining (Airbus UK/BAE supplier),9
+1,Auva Certification,1120H,Distribution/services - no simulation need,UK-based distribution/services/software,UK certification services,9
+1,Aviation & Defence Spares,4235,Distribution/services - no simulation need,UK-based distribution/services/software,UK aviation spares supply,9
+1,Aviation for Good,PI-07,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),Aviation education/sustainability initiative (UK-based stand),9
+1,B-Tech Engineering Ltd,3930,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Bracknell 3/4/5-axis machining,10
+1,BEL Engineering,3835,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Newcastle (British Engines) precision engineering,11
+1,Bloc Digital,"4105, E009, E010, E028, 41314",Distribution/services - no simulation need,UK-based distribution/services/software,Derby; visualisation/immersive-tech + digital-twin services,11
+1,Bodycote Heat Treatments Ltd,41111,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,HQ Macclesfield; UK thermal-processing/HIP network,12
+1,BOTT Ltd,1310,Heuristic: manufacturing/services profile - little design simulation,Overseas parent - UK engineering/R&D/manufacturing site,Bude (Cornwall) manufacturing; workspace/storage systems (German parent),12
+1,Bowmill Engineering & Metal Treatments,4026,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Dorset + Gloucestershire precision engineering + surface treatments,12
+1,Bright Engineering (Precision Products),1317,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK precision machining,12
+1,British Airways (Pioneers of Tomorrow),PP-18,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,HQ Heathrow; BA Engineering (careers stand),12
+1,Broadway Group,"1120, C413",Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK aerospace manufacturing group (Broadway Engineering/AVPE/GET),12
+1,Brookhouse Aerospace,1310,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Darwen (Lancs) aerostructures,13
+1,Bruntons Aero Products,1020,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Musselburgh (Scotland) machined components + cable assemblies,13
+1,Capabilities Beyond Engineering,1320,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK electroless nickel plating + CNC machining,13
+1,Carbon8Lighting,4648,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK manufacture of deployable lighting towers,13
+1,Carter Manufacturing,1031,Distribution/services - no simulation need,UK-based distribution/services/software,Oxfordshire; precision bearing distribution + application engineering,13
+1,CCP Gransden,1321,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Northern Ireland advanced composites (SC21 Gold),14
+1,"City St George's, University of London",4824,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),University,15
+1,Clarendon Specialty Fasteners,4900,Distribution/services - no simulation need,UK-based distribution/services/software,Aylesbury; specialty fastener distribution (UK HQ),15
+1,Composites UK,1310,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),"Trade association, FRP composites",16
+1,Cosine,4238J,Distribution/services - no simulation need,UK-based distribution/services/software,"London; AI software company, UK sovereign AI programme (not simulation)",16
+1,CP Cases Ltd,4020,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Isleworth; protective cases/racks manufacture,16
+1,Cranden Diamond Products,1554,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,High Wycombe; diamond/CBN grinding wheels manufacture,16
+1,Cre8tive Space,1317,Distribution/services - no simulation need,UK-based distribution/services/software,UK design + build of accredited secure facilities,16
+1,Creative Hut,0870,Distribution/services - no simulation need,UK-based distribution/services/software,UK STEM education programmes,16
+1,Cristex,1310,Distribution/services - no simulation need,UK-based distribution/services/software,UK composites materials distribution,17
+1,Dealey Environmental,4028,Distribution/services - no simulation need,UK-based distribution/services/software,UK aircraft fumigation services (BlueFume),17
+1,Denroy Ltd,1321,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Bangor (NI); precision injection-moulded thermoplastics,18
+1,Department for Business and Trade,1120,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),UK government department,18
+1,DEPE Gear Company Ltd,1310,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK gear manufacture (North West),18
+1,Didactic Services,4803,Distribution/services - no simulation need,UK-based distribution/services/software,UK technical-education equipment + learning solutions,18
+1,DP Engineering,"1120, C413",Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK CNC turning/milling since 1952,19
+1,Druck,4230,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,"HQ + engineering + mfg Leicester, pressure sensing (GE-owned)",19
+1,Duxford AvTech by HBD,1317,Distribution/services - no simulation need,UK-based distribution/services/software,Cambridgeshire aviation-technology R&D campus development,19
+1,Dynamic Aerospace Fabrications,1320,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK aerospace fabrications,19
+1,Dynamic Metals,4910,Distribution/services - no simulation need,UK-based distribution/services/software,Leighton Buzzard; aerospace metals stockholder (UK HQ),19
+1,EGADD,1120M,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),"Export Group for Aerospace, Defence & Dual-Use",20
+1,Elite Electronic Systems,1321,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Enniskillen (NI); high-reliability electronics manufacture,20
+1,Elite EMC Ltd,4238F,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK EMC filter/enclosure manufacturer,20
+1,Exeter College,"1120, C413",Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),Further-education college,22
+1,FAM Group,"1120, C413",Distribution/services - no simulation need,UK-based distribution/services/software,UK investment/partnership group across defence + aerospace,22
+1,Farnborough Aerospace Consortium,1317,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),Regional trade association (pavilion host),22
+1,Farnborough College of Technology,1317,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),Further/higher education,22
+1,Farsound Aviation,1216,Distribution/services - no simulation need,UK-based distribution/services/software,Romford; MRO supply-chain services (UK HQ),22
+1,Fastavia Limited,3730,Distribution/services - no simulation need,UK-based distribution/services/software,UK AS9120B technical distributor (Click Bond etc.),22
+1,Flight Crowd,PI-15,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),UK educational non-profit (Future Flight),23
+1,Flightcase Warehouse,1522,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Tamworth; flight-case manufacture,23
+1,Flitetec Limited,1120A,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,"UK manufacturer + distributor, aircraft interior parts",23
+1,FMT Aerospace LTD,1133,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,"UK group (AF Fasteners, UFC Aerospace, Atlantic Precision, SPL Treatments)",24
+1,Ford Aerospace,2511,Heuristic: manufacturing/services profile - little design simulation,Overseas parent - UK engineering/R&D/manufacturing site,"South Shields precision machining + shims (SPIROL Group, US)",24
+1,Framatome Ltd - Defence and Space,1204,Heuristic: manufacturing/services profile - little design simulation,Overseas parent - UK engineering/R&D/manufacturing site,New UK defence business with UK engineering investment (French parent),24
+1,Frasers Aerospace,1317,Distribution/services - no simulation need,UK-based distribution/services/software,UK aerospace consumables supply,24
+1,Freightline Carriers,"1056, 41542",Distribution/services - no simulation need,UK-based distribution/services/software,UK time-critical aerospace logistics,24
+1,Friction Technology Ltd,4544,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,North Wales; friction materials manufacture,24
+1,FSL Aerospace,1500,Distribution/services - no simulation need,UK-based distribution/services/software,UK fastener/component distributor,24
+1,G&O Springs,1320,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Redditch; AS9100 design-accredited spring manufacture,25
+1,GKM Aerospace Ltd,1120E,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK precision machining (3.2 m 5-axis),25
+1,Glenair,3845,Heuristic: manufacturing/services profile - little design simulation,Overseas parent - UK engineering/R&D/manufacturing site,Glenair UK Mansfield: interconnect manufacture + build-to-print,26
+1,Globus Metal Powders,1025,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK vacuum melter/atomiser of metal powders,26
+1,Goodridge Ltd,1317,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Exeter; fluid-transfer systems manufacture,26
+1,Gould Alloys,"1231, C119-120",Distribution/services - no simulation need,UK-based distribution/services/software,UK metals service centre (Aero Metals Alliance),26
+1,Groveley Precision Engineering,1317,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK complex components + assemblies (SC21 Silver),26
+1,Hampshire Futures,PI-10,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),Hampshire County Council careers service,27
+1,Heamar Company,4315,Distribution/services - no simulation need,UK-based distribution/services/software,UK tooling solutions supply,27
+1,Heller Machine Tools,1320,Heuristic: manufacturing/services profile - little design simulation,Overseas parent - UK engineering/R&D/manufacturing site,Redditch machine-tool manufacturing plant (German parent),28
+1,HellermannTyton,0360,Heuristic: manufacturing/services profile - little design simulation,Overseas parent - UK engineering/R&D/manufacturing site,UK manufacturing (Manchester); cable-management engineering,28
+1,Hellios Information,1120P,Distribution/services - no simulation need,UK-based distribution/services/software,UK supplier-data management (SC/JOSCAR community),28
+1,Howco,4836,Distribution/services - no simulation need,UK-based distribution/services/software,HQ Irvine (Scotland); alloys processing + distribution,29
+1,Howmet Aerospace (+ Fastening Systems),C224-225; C313,Heuristic: manufacturing/services profile - little design simulation,Overseas parent - UK engineering/R&D/manufacturing site,Exeter castings plant; Livingston fastening systems,29
+1,Hurst Green Plastics Ltd,1326,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Lancashire; plastics manufacture,29
+1,HYCAERO LTD,1310,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Burnley; surface treatments + thermal coatings,30
+1,Hyde Group,1120C,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Manchester; aerostructures + tooling engineering,30
+1,IMechE Aerospace Division,"PI-19, PI-20, PINN-07",Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),Professional engineering institution,31
+1,Infortecorp Solutions,4238H,Distribution/services - no simulation need,UK-based distribution/services/software,"UK-registered manufacturing/supply partner (fasteners, drones/anti-drone)",31
+1,Inspectahire Instrument Co.,4238C,Distribution/services - no simulation need,UK-based distribution/services/software,Aberdeen; remote visual inspection services,31
+1,Interconnect Solutions Group (IS-Group),4900,Distribution/services - no simulation need,UK-based distribution/services/software,UK-based authorised interconnect distributor,31
+1,Invest in Gloucestershire,1120D,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),Inward-investment body,31
+1,Invest Manchester,1310,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),Inward-investment agency,31
+1,Invest Northern Ireland,1321,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),NI economic development agency (pavilion host),32
+1,IrvinGQ,1221,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,"Design + manufacture, aerial delivery/parachutes, Llangeinor (Wales)",32
+1,Jaivel Aerospace,1320,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,HQ UK (Gloucestershire); aerostructures + smart tooling (UK+India),32
+1,Joss Engineering (Barrow) Ltd,1415,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Barrow; safety-critical fasteners + machining,33
+1,Keighley Laboratories,1310,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Keighley; metallurgical testing + heat treatment,33
+1,Kenard Engineering Group,1034,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK complex machined components (group),33
+1,Knight Precision Metals,1028,Distribution/services - no simulation need,UK-based distribution/services/software,"UK strip/wire/foil processing service centre (Elgiloy, US parent)",34
+1,Laser Wire Solutions,1221,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Pontypridd (Wales); laser wire-stripping machines,34
+1,LPE (Laser Prototypes Europe),1321,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Belfast; longest-established UK AM/3D-printing bureau,36
+1,Magellan Aerospace,4123,Heuristic: manufacturing/services profile - little design simulation,Overseas parent - UK engineering/R&D/manufacturing site,"UK manufacturing divisions (Wrexham, Deeside)",36
+1,MAHER,4818,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Sheffield; high-performance alloys processing + machining,36
+1,Maycast-Nokes,1320,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,"Halstead; investment/sand casting + machining, NADCAP NDT",37
+1,Mersen UK Teesside,1320,Heuristic: manufacturing/services profile - little design simulation,Overseas parent - UK engineering/R&D/manufacturing site,Teesside graphite machining/production (French parent),38
+1,Met Office,3704,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),UK national meteorological service (MAVIS aviation services),38
+1,Metalex,4719,Distribution/services - no simulation need,UK-based distribution/services/software,UK family-owned AS9120 metals stockholder,38
+1,Metalweb,1310,Distribution/services - no simulation need,UK-based distribution/services/software,"Birmingham metals distributor/processor (Reliance, US parent)",38
+1,Micro Spring and Presswork Ltd,1030,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Redditch; precision springs/pressings since 1964,39
+1,Middlesex Aerospace,1317,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Basingstoke; aerostructure components + assemblies,39
+1,Midlands Aerospace Alliance,1320,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),Regional aerospace cluster (pavilion host),39
+1,Mini Gears,1051,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Stockport; subcontract gears + machining,39
+1,MJ Sections Ltd,1320,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK rolled + welded aerospace rings/sections,39
+1,MSM aerospace fabricators,1120Q,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK sheet-metal fabrication,40
+1,MTD Ltd,1320,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK in-house design + manufacture of lamination stamping tooling,40
+1,MThree Corporate Consulting,0765,Distribution/services - no simulation need,UK-based distribution/services/software,UK-founded workforce/talent consultancy (Wiley-owned),40
+1,Nasmyth Group,1300,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK precision engineering group (aero engines + airframe),40
+1,National Armaments Director Group,3704,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),UK MOD armaments organisation,41
+1,National Careers Service,PI-17,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),UK careers advice service,41
+1,National Wealth Fund,3704,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),UK government investment institution,41
+1,Needles and Pins Aerospace,4238G,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,"UK high-performance textile solutions (insulation, soft trim)",41
+1,Newcastle University (Pioneers of Tomorrow),(no stand),Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),University,41
+1,Norfolk and Suffolk Unlimited,3010,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),Regional inward investment,42
+1,North West Aerospace Alliance,1310,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),Regional aerospace cluster (pavilion host),42
+1,NQ Aero Group,1317,Distribution/services - no simulation need,UK-based distribution/services/software,UK aerospace quality/operational-excellence consultancy,42
+1,Okazaki Manufacturing Company UK,0050,Heuristic: manufacturing/services profile - little design simulation,Overseas parent - UK engineering/R&D/manufacturing site,UK manufacture of temperature sensors/MI cables (Japanese parent),43
+1,Oldham Engineering,4725,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Oldham; complex fabricated + machined assemblies,43
+1,Ondrives Ltd,2311,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Chesterfield; precision gears + gearboxes manufacture,43
+1,Ontic Engineering & Manufacturing Ltd,4120,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Cheltenham engineering + manufacturing (US parent),43
+1,Oracle Special Metals,1320,Distribution/services - no simulation need,UK-based distribution/services/software,UK titanium/nickel/stainless supplier,44
+1,Orbis UK,0850,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),UK-registered flying eye hospital charity,44
+1,P&K Fabrications,3922,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK aircraft hangars + bespoke steelwork,44
+1,Packstat Ltd,1221,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,"NewMet group; silicone/polymeric foams, London + Cardiff sites",44
+1,Paramount Panels UK,1042,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK integrally-illuminated panels (MIL-DTL-7788),44
+1,Piran Advanced Composites,"1120, C413",Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK advanced composites (Piran Technology Group),45
+1,Polar Technology,3840,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Eynsham (Oxon); composite + metallic engineering,45
+1,Precise Components,0560,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Milton Keynes; CNC milling/turning since 1966,46
+1,Precision Castparts Corp (PCC),C330-331,Heuristic: manufacturing/services profile - little design simulation,Overseas parent - UK engineering/R&D/manufacturing site,TIMET Swansea + Birmingham mills; Special Metals Wiggin (Hereford) alloys R&D+mfg,46
+1,Precision Technologies International,1320,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,"UK precision gears, splines + threaded components",46
+1,Primary Engineer,1310,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),UK engineering-education non-profit,46
+1,Pro-Roll Ltd,41540,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Sheffield precision rolled profiles,46
+1,Process Automation and Calibrations (PAC Group),1321,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Northern Ireland; bespoke composite production systems,46
+1,Progressive Technology Group,1310,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,"Newbury; precision engineering, composites + AM",46
+1,PRP Optoelectronics,4238B,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Towcester; high-reliability displays/LED arrays,47
+1,QinetiQ - Pioneers of Tomorrow,PINN-18,Careers stand (company ranked separately),UK organisation (government/academic/RTO/association),Careers/education stand of QinetiQ (company listed separately),47
+1,RAF Cadets Bulldog,(no stand),Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),RAF Air Cadets display,47
+1,Righton Blackburns,1117,Distribution/services - no simulation need,UK-based distribution/services/software,"UK-HQ (Birmingham) aerospace + speciality alloys supplier, 4 UK sites",48
+1,RLC,41131,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,"UK high-precision A&D manufacturing, sovereign capability",48
+1,Rotary Precision Instruments UK,"1120, C413",Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK rotary/angular measurement systems since 1940,49
+1,Royal Aeronautical Society (+ PoT),"4002; PI-11, PINN-04",Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),Professional body,49
+1,Salamandra UK,1120G,Distribution/services - no simulation need,UK-based distribution/services/software,UK animation/design studio for aerospace brands,49
+1,SAM Aerospace (NI) Ltd,1321,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Northern Ireland precision machining,49
+1,SATRO,PINN-03,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),UK STEM education charity,50
+1,Sellectronics,3928,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK high-reliability PCB assemblies,51
+1,Senior PLC,4911,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,HQ Rickmansworth; UK Fluid Conveyance sites,51
+1,Sigma (Sigma Components),1320,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Hinckley; rigid pipes/ducting/fabrications (UK + China plants),52
+1,Sigma Manufacturing Solutions,1310,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK manufacturing (North West),52
+1,Sigmatex UK,1310,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Runcorn; carbon-fibre textiles,52
+1,SJ Group,1320,Distribution/services - no simulation need,UK-based distribution/services/software,UK-based A&D talent/recruitment partner,52
+1,Smiths Advanced Metals,1120K,Distribution/services - no simulation need,UK-based distribution/services/software,Biggleswade; metals stockholder (UK),53
+1,Somerset Council,"1120, C413",Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),Local authority (South West Innovation Flight Zone),53
+1,Southampton University Human Powered Aircraft,(no stand),Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),Student society,53
+1,Southbourne Rubber,4736,Seals build-to-print,UK company - engineering/manufacturing/R&D,Havant; elastomeric seals,53
+1,Squarcle Consulting,0650,Distribution/services - no simulation need,UK-based distribution/services/software,UK supply-chain consultancy,54
+1,Supply Chain Solutions Framework,1120L,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),ADS-facilitated industry programme,55
+1,Surface Technology International Ltd,1317,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,"Electronics manufacturing + engineering, Hook & Poynton (NOTE AB parent)",55
+1,Team Scotland,4505,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),Scottish Government + enterprise agencies,56
+1,TECHSiL,4900,Distribution/services - no simulation need,UK-based distribution/services/software,UK value-add adhesives/sealants distributor,56
+1,Teconnex Ltd,1320,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Keighley; V-band clamps + joining,56
+1,Teesside International Airport Business Park,3920,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),UK airport business park development,56
+1,TEKEVER,1160,Heuristic: manufacturing/services profile - little design simulation,Overseas parent - UK engineering/R&D/manufacturing site,UK engineering centre (Southampton); Wales flight operations; major UK expansion,57
+1,The Air League,PINN-05,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),UK aviation charity,57
+1,The Boeing Company,"C201-206, C620",Heuristic: manufacturing/services profile - little design simulation,Overseas parent - UK engineering/R&D/manufacturing site,Boeing Sheffield manufacturing + AMRC R&D partnership; Boeing Defence UK,57
+1,The Honourable Company of Air Pilots,(no stand),Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),City of London livery company,57
+1,The HR Dept,1317,Distribution/services - no simulation need,UK-based distribution/services/software,UK HR services for aerospace sector,57
+1,TI-TEK [UK] Limited,1317,Distribution/services - no simulation need,UK-based distribution/services/software,Birmingham; titanium processing + distribution,58
+1,Tioga Limited,1317,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Derby; employee-owned contract electronics manufacturer,58
+1,Tridan Engineering,1551,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Clacton; precision machining,59
+1,Tritech Group,4617,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Tritech Precision (Wrexham) castings + machining (UK + India),59
+1,TT Electronics (plc + NWAA stand),4118; 1310,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,HQ Woking; UK design + manufacturing sites,59
+1,Ubloquity,1321,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Northern Ireland; digital-trust/blockchain technology,60
+1,UK Civil Aviation Authority,41518,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),UK regulator,60
+1,UK Export Finance,3704,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),UK export credit agency,60
+1,UK Hub for Quantum Enabled PNT (QEPNT),PI-13,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),UK research hub,60
+1,UK Precision Ltd,"1120, C413",Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK subcontract precision machining,60
+1,UK Research and Innovation,"1110, 4710",Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),UK national funding agency,60
+1,UK Space Agency,4510,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),UK government space agency,60
+1,Ultima Forma,1317,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK electroforming technology,60
+1,United Performance Metals Ltd,1321,Distribution/services - no simulation need,UK-based distribution/services/software,Northern Ireland specialty-metals service centre (US parent),61
+1,UOCEAN x Aerosparx,PP-09,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),UK charity initiative + display team,61
+1,Valbruna UK,1320,Distribution/services - no simulation need,UK-based distribution/services/software,West Bromwich stainless/nickel bar stock (Italian parent),61
+1,Valuechain,1520,Distribution/services - no simulation need,UK-based distribution/services/software,UK supply-chain/MES software company,61
+1,Wales (Welsh Government),1221; 3704,Organisation - not a tool buyer (see notes for research bodies),UK organisation (government/academic/RTO/association),Devolved government (pavilion host),63
+1,Walker AEC Ltd,1320,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK make-to-print landing-gear/hydraulic components (50+ years),63
+1,Wall Colmonoy,2322,Heuristic: manufacturing/services profile - little design simulation,Overseas parent - UK engineering/R&D/manufacturing site,Wall Colmonoy Ltd Pontardawe (Wales): alloys/castings engineering + mfg,63
+1,Wallwork Heat Treatment,1000,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,"Bury + Cambridge; HIP, heat treatment, PVD coatings",63
+1,William Cook Cast Products,0055,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,Sheffield steel castings,64
+1,ZB3 Technologies,1560,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,UK; HALOSENSOR through-skin sensing smart tooling,64
+1,Zenix Aerospace,4303,Heuristic: manufacturing/services profile - little design simulation,UK company - engineering/manufacturing/R&D,"New group HQ Birmingham; Weston site (Earby, Lancs) — ex-Senior plc Aerostructures",65
